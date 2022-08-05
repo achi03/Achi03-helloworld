@@ -1214,13 +1214,13 @@ https://bravo.kugo.id/dmtvmalang/rtmp.stream/chunklist.m3u8
 https://wowza.convergen.co/gprtv/myLive/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://humabetang.com/public/template/front/img/logo_news.png" group-title="CHANNEL DAERAH",Humabetang TV
 https://v3.siar.us/humabetangtv/live/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCyynOubKyyOUH9Lq_OT6qGvGoP3XYt4jfRw&usqp=CAU" group-title="CHANNEL DAERAH",JawaPos TV
+#EXTINF:-1 tvg-logo="https://s.id/1dYfs" group-title="CHANNEL DAERAH",JawaPos TV
 https://v2.siar.us/jawapostv/live/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAUvLcWD__US6CeWoDKIflA5zxgR8-76hTUUJQUxRlpiFuXWSz2MYB3ss&s=10" group-title="CHANNEL DAERAH",KSB TV
 https://bravo.kugo.id/ksb/udp.stream/playlist.m3u8
-#EXTINF:-1 group-title="CHANNEL DAERAH",Madu TV - Blitar
+#EXTINF:-1 tvg-logo="https://s.id/1dYfQ" group-title="CHANNEL DAERAH",Madu TV - Blitar
 https://re1.siar.us/madutv/hd720/playlist.m3u8
-#EXTINF:-1 group-title="CHANNEL DAERAH",PAL TV
+#EXTINF:-1 tvg-logo="https://s.id/1dYgk" group-title="CHANNEL DAERAH",PAL TV
 https://v3.siar.us/paltv/live/playlist.m3u8
 #EXTINF:-1 group-title="CHANNEL DAERAH",Puja TV
 https://v6.siar.us/pujatv/live/chunks.m3u8
