@@ -1229,37 +1229,37 @@ https://tvn10.xyz/Meta/master-10.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="sctv" tvg-logo="https://s.id/1d0vb" group-title="VIDIO",SCTV
+#EXTINF:-1 tvg-ID="citradangdut" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr2yWfE3tUqs9HVk4baoUJatJrzxhQhRnI2g&usqp=CAU" group-title="VIDIO",CITRA DANGDUT
 https://tvn10.xyz/Meta/master-11.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="sctv" tvg-logo="https://s.id/1d0vb" group-title="VIDIO",SCTV
+#EXTINF:-1 tvg-ID="citraintertain" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpKKTDDNWkcWF4-Eu_npO3umWKFXhu-DdgYQ&usqp=CAU" group-title="VIDIO",CITRA ENTERTAINMENT
 https://tvn10.xyz/Meta/master-12.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="sctv" tvg-logo="https://s.id/1d0vb" group-title="VIDIO",SCTV
+#EXTINF:-1 tvg-ID="ochannel" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1cFt5T0Q3p-XScNS5AqkbohSXXc4F9C3_pQ&usqp=CAU" group-title="VIDIO",O CHANNEL
 https://tvn10.xyz/Meta/master-13.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="sctv" tvg-logo="https://s.id/1d0vb" group-title="VIDIO",SCTV
+#EXTINF:-1 tvg-ID="ajwa" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1gE0Lbvnu_OERDG8ss0vJd8RUUEF3l5gJKg&usqp=CAU" group-title="VIDIO",AJWATV
 https://tvn10.xyz/Meta/master-14.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="sctv" tvg-logo="https://s.id/1d0vb" group-title="VIDIO",SCTV
+#EXTINF:-1 tvg-ID="antv" tvg-logo="https://thumbor.prod.vidiocdn.com/f_krPM0cCmDqSiZrHDntNcTi1Os=/640x360/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/782/antv-tv-stream-b6cca5.jpg" group-title="VIDIO",ANTV
 https://tvn10.xyz/Meta/master-15.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="sctv" tvg-logo="https://s.id/1d0vb" group-title="VIDIO",SCTV
+#EXTINF:-1 tvg-ID="rtv" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRmE3xMQn99QTI9QlvHgxQQLsKvlmqDbqECA&usqp=CAU" group-title="VIDIO",RTV
 https://tvn10.xyz/Meta/master-16.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="sctv" tvg-logo="https://s.id/1d0vb" group-title="VIDIO",SCTV
+#EXTINF:-1 tvg-ID="rtv" tvg-logo="https://s.id/1d0vb" group-title="VIDIO",SCTV
 https://tvn10.xyz/Meta/master-17.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
