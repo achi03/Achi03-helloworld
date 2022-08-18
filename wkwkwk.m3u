@@ -987,17 +987,17 @@ http://golive.yn.lt/stream/bein/07.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="beinsports1english" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLG814vRUPCb24_-m7GbczaZgYyWQfzr-XXQ&usqp=CAU" group-title="SPORTS",BEIN SPORT 1 ENGLISH
+#EXTINF:-1 tvg-ID="beinsports1english" tvg-logo="https://s.id/1d1Gl" group-title="SPORTS",BEIN SPORT 1 ENGLISH
 http://golive.yn.lt/stream/bein/11.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="beinsports2english" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLG814vRUPCb24_-m7GbczaZgYyWQfzr-XXQ&usqp=CAU" group-title="SPORTS",BEIN SPORT 2 ENGLISH
+#EXTINF:-1 tvg-ID="beinsports2english" tvg-logo="https://s.id/1d1GJ" group-title="SPORTS",BEIN SPORT 2 ENGLISH
 http://golive.yn.lt/stream/bein/12.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="beinsports3english" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLG814vRUPCb24_-m7GbczaZgYyWQfzr-XXQ&usqp=CAU" group-title="SPORTS",BEIN SPORT 3 ENGLISH
+#EXTINF:-1 tvg-ID="beinsports3english" tvg-logo="https://s.id/1d1HB" group-title="SPORTS",BEIN SPORT 3 ENGLISH
 http://golive.yn.lt/stream/bein/13.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
