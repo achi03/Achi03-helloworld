@@ -1032,13 +1032,13 @@ https://d14a5mi0m64mw7.cloudfront.net/out/v1/8a240d2e8a64453da6288810ede90a60/in
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="rmcsport2" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLG814vRUPCb24_-m7GbczaZgYyWQfzr-XXQ&usqp=CAU" group-title="SPORTS",RMC SPORT 2
-http://watchtvfoot.com/QVVSVIMAZ6/TJXMGL1CTL/12521
+#EXTINF:-1 tvg-ID="beinextra" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLG814vRUPCb24_-m7GbczaZgYyWQfzr-XXQ&usqp=CAU" group-title="SPORTS",BEIN SPORT EXTRA
+http://185.191.126.235:8080/live/play/ZVdkMGFXbEhPWHBxVkdrcldsbFZTUzlzYzJGMmRXVjNia3R4ZFZGeUwyUm9jazFSTjBOWWN5dG9TVDA9/111649
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="rmcsport3" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLG814vRUPCb24_-m7GbczaZgYyWQfzr-XXQ&usqp=CAU" group-title="SPORTS",RMC SPORT 3
-http://watchtvfoot.com/QVVSVIMAZ6/TJXMGL1CTL/146393
+#EXTINF:-1 tvg-ID="beinextra2" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLG814vRUPCb24_-m7GbczaZgYyWQfzr-XXQ&usqp=CAU" group-title="SPORTS",BEIN SPORT EXTRA 2
+http://185.191.124.227:8080/live/play/SzNGbGRtNUVOVTFrTkRkNFYwbHZaVXcxUlhGMVluVnVWamR2YjBwUE5VOHpVbmhoWkhob0wxSnFPRDA9/111653
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
