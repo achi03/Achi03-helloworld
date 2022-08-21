@@ -939,6 +939,11 @@ https://smithsonianaus-samsungau.amagi.tv/playlist720p.m3u8?checkedby:iptvcat.co
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="peopleareawesome" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjC8Ef92AzjKa4x09T2AERAiybcy6RKV5_iQ&usqp=CAU" group-title="VISION+",PEOPLE ARE AWESOME
 https://dai2.xumo.com/xumocdn/p=redbox&deviceid=&is_lat=&subp=RedboxdesktopWebWindows/amagi_hls_data_xumo1212A-redboxpeopleareawesome/CDN/1280x720_5000000/chunklist.m3u8
+#EXTM3U
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
+#EXTINF:-1 tvg-ID="outsidetv" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXh0_LSTwfh58yHnaAvVfHtoxCAeTGyxEzmQ&usqp=CAU" group-title="VISION+",OUTSIDETV
+https://outsidetvplus-stirr.amagi.tv/playlistR720P.m3u8
 
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
