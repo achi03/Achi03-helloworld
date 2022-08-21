@@ -917,6 +917,11 @@ https://d25tgymtnqzu8s.cloudfront.net/smil:tv6/playlist.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
+#EXTINF:-1 tvg-ID="sukan" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbeExI4yXge00kocJPOJ9L6orvn7e9II0liw&usqp=CAU13109" group-title="RTM",SUKAN
+https://rtmlive05tv.secureswiftcontent.com/rtmchannel/06-manifest.mpd
+#EXTM3U
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="mykids" tvg-logo="https://s.id/1d4gW" group-title="RTM",MY KIDS
 http://rr.dens.tv/h/h191/index.m3u8?app_type=web&userid=50n13N0v14nd1&tkn=829341hrjhaq0q30q&chname=My_Kidz_HD
 #EXTM3U
@@ -944,12 +949,11 @@ https://dai2.xumo.com/xumocdn/p=redbox&deviceid=&is_lat=&subp=RedboxdesktopWebWi
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="outsidetv" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXh0_LSTwfh58yHnaAvVfHtoxCAeTGyxEzmQ&usqp=CAU" group-title="VISION+",OUTSIDETV
 https://outsidetvplus-stirr.amagi.tv/playlistR720P.m3u8
-
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="sukan" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbeExI4yXge00kocJPOJ9L6orvn7e9II0liw&usqp=CAU13109" group-title="RTM",SUKAN
-https://rtmlive05tv.secureswiftcontent.com/rtmchannel/06-manifest.mpd
+#EXTINF:-1 tvg-ID="nasatv" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT4KZ8gDtzbKucz_1GAMtMM2esc7vRvfo-7w&usqp=CAU" group-title="VISION+",NASA TV
+https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master_2000.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
