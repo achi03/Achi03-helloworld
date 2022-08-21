@@ -1037,8 +1037,8 @@ http://lol.bz:2095/wmC82d4T/gTNFzbZ/49905
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="beinextra2" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLG814vRUPCb24_-m7GbczaZgYyWQfzr-XXQ&usqp=CAU" group-title="SPORTS",BEIN SPORT EXTRA 2
-https://siloh.pluto.tv/lilo/production/bein/2/master.m3u8
+#EXTINF:-1 tvg-ID="hbo3" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVyF6nHatkotSgJNagzbmHuNLGWW-7S2iWqA&usqp=CAU" group-title="SPORTS",HBO 3
+http://lol.bz:2095/wmC82d4T/gTNFzbZ/49906
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
