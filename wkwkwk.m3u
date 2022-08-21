@@ -932,6 +932,12 @@ https://unifi-live05.secureswiftcontent.com/UnifiHD/live12.mpd
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
+#EXTINF:-1 tvg-ID="unifysport2" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/83/Unifi-Sports-2.png/revision/latest/scale-to-width-down/300?cb=20210712113109" group-title="RTM",UNIFY SPORT2
+https://unifi-live05.secureswiftcontent.com/UnifiHD/live13.mpd
+
+#EXTM3U
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="sukan" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbeExI4yXge00kocJPOJ9L6orvn7e9II0liw&usqp=CAU13109" group-title="RTM",SUKAN
 https://rtmlive05tv.secureswiftcontent.com/rtmchannel/06-manifest.mpd
 #EXTM3U
