@@ -596,8 +596,8 @@ http://moviesphere-roku.amagi.tv/playlist720lp.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="syfy" tvg-logo="https://s.id/1d1fl" group-title="MOVIES",SYFY
-https://apponaneneta.github.io/mbah-dukun-cabul/codaytv.mp4
+#EXTINF:-1 tvg-ID="tic" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyEcb4Ym958_shc-C3kCxgfGxXy3jrbCRZtw&usqp=CAU" group-title="MOVIES",TIC
+https://5effe161e0fba.streamlock.net/live/ngrp:TIC.stream_all/.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
