@@ -581,8 +581,8 @@ http://ucer2020.ddns.net/r3rhj5U47C/jRxaUqYtQj/95971
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="foxfamilymovies" tvg-logo="https://s.id/1d1eU" group-title="MOVIES",FOX FAMILY MOVIES
-http://quality-restream.com:8080/linuxapp2021/M3jc66jD9UCnpK9v/157570
+#EXTINF:-1 tvg-ID="thefirst" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkldaIrkPu0ubqMsYfiDo_4d4DQKrJ_dAhHw&usqp=CAU" group-title="MOVIES",THE FIRST
+https://thefirst-oando.amagi.tv/playlist.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
