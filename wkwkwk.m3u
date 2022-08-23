@@ -249,6 +249,11 @@ https://d12a2vxqkkh1bo.cloudfront.net/hls/1080p/playlist.m3u8
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="astroarena" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK5ZwUMnDB8ASYFzI8FXxtYn-nLnaUTcpNkA&usqp=CAU" group-title="VISION+",ASTRO ARENA
 https://limitless.securepath.site/live/mustakim/mustakim/37422.m3u8?token=QhBYV0dYRg4TAAEBUQACBwxdA1cDWlVVXVAHUgRQUwEPVggHDQRcA1UaSBAQEEJXVQhvWgIbCVYOAAIDTRQUEVxAb19QEl4WAAlSC1pcEh4WEVleAxsJVRUWQFgFFFtACAMJAAUSSBZUQBBXEQpRXmsBVUUPWlZHA1pFXQ0aQw1XbVRTWVEKUBMCRgJBSBJbRxUSCQhMXwkVFlJYFUQAFlwQChQFB1QAExRGUQwRXkZGHBIJRHB3RxUWVUkVUw8RUF1eFA4SCQdEAEYeQQ1DbUYAQ0cUXFIIXEYSC0MGQ04bX1FOa1MLWl9dB0YKC15BFl8SAkQVEQhWWllFDkQ+ElBWEgwWA1wNBxoZ
+#EXTM3U
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
+#EXTINF:-1 tvg-ID="motoracing" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsUKgaFnV8vc-onBoywAFfPAhcJHGuXuFlBg&usqp=CAU" group-title="VISION+",MOTO RACING
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/federator/047f241e-6a2f-4d8a-baac-3d0eb93758aa/2.m3u8
 
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
