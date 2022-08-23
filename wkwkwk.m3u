@@ -242,8 +242,8 @@ https://rmtv-canela.amagi.tv/playlist.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="barcatv" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW3T-INyLEBcgIEqe5hFxLvOulb6TrTKwl6A&usqp=CAU" group-title="VISION+",BARCA TV
-https://streamamg-fcbar01.akamaized.net/hls/live/2040128/0_3ixifoo5/master.m3u8?hdnea=st=1661261876~exp=1661262476~acl=/hls/live/2040128/0_3ixifoo5/master.m3u8*~hmac=65173e81d4cb1ac6a7f5f4cd63fc7784e1435771aaafac00e3480812553c3f3f
+#EXTINF:-1 tvg-ID="axstv" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFA7LkLc9KrewZbvLUEesu5P8RKgZs2TLCUQ&usqp=CAU" group-title="VISION+",AXSTV
+https://d12a2vxqkkh1bo.cloudfront.net/hls/1080p/playlist.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
