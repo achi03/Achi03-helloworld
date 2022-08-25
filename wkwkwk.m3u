@@ -98,7 +98,11 @@ http://tvn.x10.mx/vidio/master-18.m3u8
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="zeebioskop" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFsablegB-1g3WGUIju5PPJRYiPMHJzz2OBA&usqp=CAU" group-title="VIDIO",ZEE BIOSKOP
 http://tvn.x10.mx/vidio/master-19.m3u8
-
+#EXTM3U
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
+#EXTINF:-1 tvg-ID="barcatv" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvACzaoYd3pqODxWj94FtEKxIkg9SLnqyokA&usqp=CAU" group-title="VIDIO",BARCA TV
+https://streamamg-fcbar01.akamaized.net/hls/live/2040128/0_3ixifoo5/480p/hdntl=exp=1661538307~acl=%2f*~data=hdntl~hmac=d2daf4a2f1578d6dd279e6420b445840606546ba63a027e55a46817a7624b145/prog_index.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
