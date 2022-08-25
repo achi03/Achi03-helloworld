@@ -2,22 +2,22 @@
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="indosiar" tvg-logo="https://s.id/1d0ti" group-title="VIDIO",INDOSIAR
-http://tvn.x10.mx/vidio/master.m3u8
+https://apponaneneta.github.io/mbah-dukun-cabul/codaytv.mp4
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="sctv" tvg-logo="https://s.id/1d0vb" group-title="VIDIO",SCTV
-http://tvn.x10.mx/vidio/master-1.m3u8
+https://apponaneneta.github.io/mbah-dukun-cabul/codaytv.mp4
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="citrabioskop" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW5_10tZRWqijMx1EGEGdyXBfEjW8i7i-abQ&usqp=CAU" group-title="VIDIO",CITRA BIOSKOP
-http://tvn.x10.mx/vidio/master-2.m3u8
+https://apponaneneta.github.io/mbah-dukun-cabul/codaytv.mp4
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="citradrama" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM0_416VS6U_bJwAVhrCMKnHeqozy8paf25Q&usqp=CAU" group-title="VIDIO",CITRA DRAMA
-http://tvn.x10.mx/vidio/master-3.m3u8
+https://apponaneneta.github.io/mbah-dukun-cabul/codaytv.mp4
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
