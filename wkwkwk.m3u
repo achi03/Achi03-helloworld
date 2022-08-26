@@ -1301,7 +1301,7 @@ https://bravo.kugo.id/riauraya/rtmp.stream/playlist.m3u8
 https://bravo.kugo.id/riautv/udp.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaenYMvXIbFfwukdmpxwN07tmS3ZtLXUx2UhLpnZu-fvpJcfinVtiUQoz32v0QJ4MOl3CsetTfA8aKUhZqxgYBy7nFWtY5L6vmM2RTDf1Dg5QEQV3ckp0iFFiviuPde4v-dNSMcV_dFQFOB-2Up-M5X582tO3RgkyphvsfFOBrpmodUH-6bESvmnee-g/s1280/20220826_114351.png" group-title="CHANNEL DAERAH",SalingSapa TV
 https://bravo.kugo.id/salingsapa/rtmp.stream/playlist.m3u8
-#EXTINF:-1 group-title="CHANNEL DAERAH",Sampit TV
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqTbAnfOffgm9ntbvL8D2D1mbrZPEude6Aqw&usqp=CAU" group-title="CHANNEL DAERAH",Sampit TV
 https://alfa.kugo.id/sampittv/rtmp.stream/chunklist.m3u8
 #EXTINF:-1 group-title="CHANNEL DAERAH",Sangaji TV
 https://cdn.gunadarma.ac.id/streams/sangajitv/ingestsangajitv.m3u8
