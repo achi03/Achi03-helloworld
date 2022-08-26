@@ -1303,7 +1303,7 @@ https://bravo.kugo.id/riautv/udp.stream/playlist.m3u8
 https://bravo.kugo.id/salingsapa/rtmp.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqTbAnfOffgm9ntbvL8D2D1mbrZPEude6Aqw&usqp=CAU" group-title="CHANNEL DAERAH",Sampit TV
 https://alfa.kugo.id/sampittv/rtmp.stream/chunklist.m3u8
-#EXTINF:-1 group-title="CHANNEL DAERAH",Sangaji TV
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqqd899UoXsjEcriGKe9B4tWkrhhZ1TPBXWw&usqp=CAU" group-title="CHANNEL DAERAH",Sangaji TV
 https://cdn.gunadarma.ac.id/streams/sangajitv/ingestsangajitv.m3u8
 #EXTINF:-1 group-title="CHANNEL DAERAH",TA TV
 https://v2.siar.us/tatv/live.sdp/playlist.m3u8
