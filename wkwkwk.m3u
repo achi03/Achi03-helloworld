@@ -1313,7 +1313,7 @@ http://103.30.246.47:1935/tvtpi/live/playlist.m3u8
 https://h1.intechmedia.net/intech/ch52.m3u8
 #EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4JcsK3Mb2Y437t9MBQWdRzLmv7QrUIfcNA99ni9CeXfALQI3MSLeoR0vfFFPPObUrMESReYnfIiZU20bwQSofiGF2VatUDAvDls-DLVQYCEybHpv0EBIuniKumwUreBm5DZhD2if7tkMAkNelA8X8pawl-al6YlayRuCDD0ujc-W4IIouUzJSB7jibQ/s1280/20220826_191029.png"group-title="CHANNEL DAERAH",BETV BENGKULU
 https://h1.intechmedia.net/intech/ch58.m3u8
-#EXTINF:-1 group-title="CHANNEL DAERAH",RA TV
+#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggz0NrW37opkukWcnqqHiN6dYOiSKQfsSwUGpiT9HFd9KcjLxJDvBdGPCshGjcRnUy0quVW4UTvrdXOSb_qLzqYBq6NwLeW49X3x9g-97J2dVP6Bw6qH4yDbcmC38QBbF3efrIvq37rabRbWlBzB-ihJ8XBB5DvDWK6PFW86SMVXKaoXyssaww4VI9sQ/s1280/20220826_192319.png"group-title="CHANNEL DAERAH",RA TV
 https://h1.intechmedia.net/intech/ch59.m3u8
 #EXTINF:-1 group-title="CHANNEL DAERAH",ATV
 https://h1.intechmedia.net/intech/ch80.m3u8
