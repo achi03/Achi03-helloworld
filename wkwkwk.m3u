@@ -1007,7 +1007,7 @@ https://bamus-eng-roku.amagi.tv/playlist404p.m3u8
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="beinsportspremium1" tvg-logo="https://s.id/1d1CR" group-title="SPORTS",BEIN SPORT PREMIUM 1
-http://tvgo.my.id:8080/live?channel_id=7253
+http://185.191.124.227:8080/live/play/TjI1VFRtSllVWFpMTWt0Uk9ESTJXVlpaZGpSd2NWcG1MMUZRUkVkM1FqZGxVbkJGY0d4SmVYRXJRVDA9/111600
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
