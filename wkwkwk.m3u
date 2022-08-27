@@ -582,12 +582,12 @@ https://apponaneneta.github.io/mbah-dukun-cabul/codaytv.mp4
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="rockant" tvg-logo="https://s.id/1d1dT" group-title="VISION+",ROCK ANT
-http://45.126.83.51/dr9445/h/h16/01.m3u8
+http://210.210.155.37/session/eb840bf4-25f3-11ed-9af7-9a7dadef5b77/dr9445/h/h16/01.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="rockext" tvg-logo="https://s.id/1d1eh" group-title="VISION+",ROCK EXT
-http://45.126.83.51/dr9445/h/h15/01.m3u8
+http://210.210.155.37/session/e775987a-25f3-11ed-8ba5-85009179245a/dr9445/h/h15/01.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
