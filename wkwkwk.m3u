@@ -557,17 +557,17 @@ http://quality-restream.com:8080/linuxapp2021/M3jc66jD9UCnpK9v/295171
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="mcn" tvg-logo="https://s.id/1d1c9" group-title="VISION+",MCN
-http://playlist.urfan.web.id/uq2663/h/h192/index.m3u8
+http://210.210.155.37/session/a95588b0-25f4-11ed-ac11-a770b9852909/uq2663/h/h192/index.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="mca" tvg-logo="https://s.id/1d1cl" group-title="VISION+",MCA
-http://playlist.urfan.web.id/uq2663/h/h193/index.m3u8
+http://210.210.155.37/session/a5d6f912-25f4-11ed-8b7e-a820a59dbc86/uq2663/h/h193/index.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="mfc" tvg-logo="https://s.id/1d1cu" group-title="VISION+",MFC
-http://playlist.urfan.web.id/uq2663/h/h194/index.m3u8
+http://210.210.155.37/session/aeb85a58-25f4-11ed-95a3-baf8b0e78068/uq2663/h/h194/index.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
