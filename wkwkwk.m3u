@@ -911,13 +911,13 @@ https://unifi-live01.secureswiftcontent.com/UnifiHD/live03.mpd
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="astroprima" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVnm8Swt0cWIA6LMgSf9ytEY_my_nqLwASJA&usqp=CAU" group-title="RTM",ASTRO PRIMA
-https://apponaneneta.github.io/mbah-dukun-cabul/codaytv.mp4
+#EXTINF:-1 tvg-ID="bernama" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5H3DmHrmKetcNGoZkw_kXzjopRy8kf1FfSA&usqp=CAU" group-title="RTM",BERNAMA
+https://raw.githubusercontent.com/AqFad2811/BernamaHDYT/main/youtube.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="astroceria" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4u3Dxve65drr3Kup7ddT779K_-Sr7AZaUTg&usqp=CAU" group-title="RTM",ASTRO CERIA
-https://apponaneneta.github.io/mbah-dukun-cabul/codaytv.mp4
+#EXTINF:-1 tvg-ID="rtbaneka" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeMeAVuqpb3-0rVbDNb6Hp-AtotBZYommQkg&usqp=CAU" group-title="RTM",RTB ANEKA
+https://d1211whpimeups.cloudfront.net/smil:rtb2/playlist.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
