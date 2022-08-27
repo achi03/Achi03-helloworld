@@ -921,8 +921,8 @@ https://d1211whpimeups.cloudfront.net/smil:rtb2/playlist.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="astrooasis" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1c4-e9iVQvmGp83g4PDYEhsTyIIPxj_NRIA&usqp=CAU" group-title="RTM",ASTRO OASIS
-https://apponaneneta.github.io/mbah-dukun-cabul/codaytv.mp4
+#EXTINF:-1 tvg-ID="rtb" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0SjGdM1T-cqvzWU-N2i5og0872SkP4gH9lQ&usqp=CAU" group-title="RTM",RTB
+https://d1211whpimeups.cloudfront.net/smil:rtb1/chunklist_b1696000_sleng.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
