@@ -102,7 +102,7 @@ http://tvn.x10.mx/vidio/master-19.m3u8
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="barcatv" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvACzaoYd3pqODxWj94FtEKxIkg9SLnqyokA&usqp=CAU" group-title="VIDIO",BARCA TV
-https://streamamg-fcbar01.akamaized.net/hls/live/2040128/0_3ixifoo5/master.m3u8?hdnea=st=1661594541~exp=1661595141~acl=/hls/live/2040128/0_3ixifoo5/master.m3u8*~hmac=8d81feddfced08e06246c1306d20f6f39cc8612fdbdb8cc6891bf47c5d9761ea
+https://achi03.github.io/Achi03-helloworld/forsat_channel_896x504.mp4
 
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -118,7 +118,7 @@ http://rr2.dens.tv/s/s03/index.m3u8?app_type=web&userid=50n13N0v14nd1&tkn=829341
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="a/n" tvg-logo="https://s.id/1d0xT" group-title="MIVO",A/N
-https://apponaneneta.github.io/mbah-dukun-cabul/codaytv.mp4
+https://achi03.github.io/Achi03-helloworld/forsat_channel_896x504.mp4
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
