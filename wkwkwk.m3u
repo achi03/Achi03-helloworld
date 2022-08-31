@@ -2,102 +2,102 @@
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="indosiar" tvg-logo="https://s.id/1d0ti" group-title="VIDIO",INDOSIAR
-http://tvn.x10.mx/vidio/master.m3u8
+http://tvn.x10.mx/live/master.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="sctv" tvg-logo="https://s.id/1d0vb" group-title="VIDIO",SCTV
-http://tvn.x10.mx/vidio/master-1.m3u8
+http://tvn.x10.mx/live/master-1.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="citrabioskop" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW5_10tZRWqijMx1EGEGdyXBfEjW8i7i-abQ&usqp=CAU" group-title="VIDIO",CITRA BIOSKOP
-http://tvn.x10.mx/vidio/master-2.m3u8
+http://tvn.x10.mx/live/master-2.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="citradrama" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM0_416VS6U_bJwAVhrCMKnHeqozy8paf25Q&usqp=CAU" group-title="VIDIO",CITRA DRAMA
-http://tvn.x10.mx/vidio/master-3.m3u8
+http://tvn.x10.mx/live/master-3.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="hiphoree" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4QoWSW3PMWpOugILuq8Cpg3FDIOdCP7gsQA&usqp=CAU" group-title="VIDIO",HIP HOREE!
-http://tvn.x10.mx/vidio/master-4.m3u8
+http://tvn.x10.mx/live/master-4.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="citramuslim" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEhCdfawRKn00iPynGrjd_tINtFXJRgZEcLA&usqp=CAU" group-title="VIDIO",CITRA MUSLIM
-http://tvn.x10.mx/vidio/master-5.m3u8
+http://tvn.x10.mx/live/master-5.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="horee" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmsJQD86wZRHZUQMWxVL1yLIEV2l-GfayquQ&usqp=CAU" group-title="VIDIO",HOREE
-http://tvn.x10.mx/vidio/master-6.m3u8
+http://tvn.x10.mx/live/master-6.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="championstv1" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6umiUERvWCe_l5dIZ7zjJQ3ZaxeDM9s38oA&usqp=CAU" group-title="VIDIO",CHAMPIONS TV1
-http://tvn.x10.mx/vidio/master-7.m3u8
+http://tvn.x10.mx/live/master-7.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="champinstv2" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOkwSR_66ewFRm-yAjJrR5Z86jQQQX1ZXC-g&usqp=CAU" group-title="VIDIO",CHAMPIONS TV2
-http://tvn.x10.mx/vidio/master-8.m3u8
+http://tvn.x10.mx/live/master-8.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="championstv3" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7erk77PjGmtshHceha5XrP_TxeaBHjII5Mg&usqp=CAU" group-title="VIDIO",CHAMPIONS TV3
-http://tvn.x10.mx/vidio/master-9.m3u8
+http://tvn.x10.mx/live/master-9.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="championsgoal" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl3dQxgLnZ1U5GBhhmeS_mWssSB8mrVT5lGw&usqp=CAU" group-title="VIDIO",CHAMPIONS GOAL
-http://tvn.x10.mx/vidio/master-10.m3u8
+http://tvn.x10.mx/live/master-10.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="citradangdut" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr2yWfE3tUqs9HVk4baoUJatJrzxhQhRnI2g&usqp=CAU" group-title="VIDIO",CITRA DANGDUT
-http://tvn.x10.mx/vidio/master-11.m3u8
+http://tvn.x10.mx/live/master-11.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="citraintertain" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpKKTDDNWkcWF4-Eu_npO3umWKFXhu-DdgYQ&usqp=CAU" group-title="VIDIO",CITRA ENTERTAINMENT
-http://tvn.x10.mx/vidio/master-12.m3u8
+http://tvn.x10.mx/live/master-12.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="ochannel" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1cFt5T0Q3p-XScNS5AqkbohSXXc4F9C3_pQ&usqp=CAU" group-title="VIDIO",O CHANNEL
-http://tvn.x10.mx/vidio/master-13.m3u8
+http://tvn.x10.mx/live/master-13.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="ajwa" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1gE0Lbvnu_OERDG8ss0vJd8RUUEF3l5gJKg&usqp=CAU" group-title="VIDIO",AJWATV
-http://tvn.x10.mx/vidio/master-14.m3u8
+http://tvn.x10.mx/live/master-14.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="antv" tvg-logo="https://thumbor.prod.vidiocdn.com/f_krPM0cCmDqSiZrHDntNcTi1Os=/640x360/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/782/antv-tv-stream-b6cca5.jpg" group-title="VIDIO",ANTV
-http://tvn.x10.mx/vidio/master-15.m3u8
+http://tvn.x10.mx/live/master-15.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="rtv" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRmE3xMQn99QTI9QlvHgxQQLsKvlmqDbqECA&usqp=CAU" group-title="VIDIO",RTV
-http://tvn.x10.mx/vidio/master-16.m3u8
+http://tvn.x10.mx/live/master-16.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="zomoo" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA2qbTqPJY7l5lkih4vyI9OQ_tfEcm7IM7bg&usqp=CAU" group-title="VIDIO",ZOMOO
-http://tvn.x10.mx/vidio/master-17.m3u8
+http://tvn.x10.mx/live/master-17.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="tvn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJQY-Uu17iWYv3iLo07uFtw6p-oOXW5lIGUg&usqp=CAU" group-title="VIDIO",TVN
-http://tvn.x10.mx/vidio/master-18.m3u8
+http://tvn.x10.mx/live/master-18.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="zeebioskop" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFsablegB-1g3WGUIju5PPJRYiPMHJzz2OBA&usqp=CAU" group-title="VIDIO",ZEE BIOSKOP
-http://tvn.x10.mx/vidio/master-19.m3u8
+http://tvn.x10.mx/live/master-19.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
