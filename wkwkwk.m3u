@@ -1012,13 +1012,13 @@ https://d14a5mi0m64mw7.cloudfront.net/out/v1/8a240d2e8a64453da6288810ede90a60/in
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="hbo2" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG98y9JV4wiJL2-vztRum5S5qjFqEAkNw-2w&usqp=CAU" group-title="SPORTS",HBO 2
-http://lol.bz:2095/wmC82d4T/gTNFzbZ/49905
+#EXTINF:-1 tvg-ID="sonyten1" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlJ9MvN6YTDr4j_2cd_uwFanfKgyYqAF9jjQ&usqp=CAU" group-title="SPORTS",SONY TEN 1
+http://0nelivezer0.rbnewtv.com:21190/neptune/sonyten1/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjIgMzo1MzowMyBQTSZoYXNoX3ZhbHVlPVVzS2tReDZpVitjNHFJdU5WQXg2d1E9PSZ2YWxpZG1pbnV0ZXM9Mg==
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="hbo3" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVyF6nHatkotSgJNagzbmHuNLGWW-7S2iWqA&usqp=CAU" group-title="SPORTS",HBO 3
-http://lol.bz:2095/wmC82d4T/gTNFzbZ/49906
+#EXTINF:-1 tvg-ID="sonysixhd" tvg-logo="https://ttensports.com/wp-content/uploads/2019/10/Sony-Six.png" group-title="SPORTS",SONY SIX HD
+http://0nelivezer0.rbnewtv.com:21190/neptune/sonysix/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS83LzIwMjIgMzo0OTozNCBQTSZoYXNoX3ZhbHVlPThYTnhaNVFnOElnUGZNTTV1cVN2UlE9PSZ2YWxpZG1pbnV0ZXM9Mg==
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
