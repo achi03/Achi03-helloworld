@@ -1084,11 +1084,23 @@ https://achi03.github.io/Achi03-helloworld/forsat_channel_896x504.mp4
 https://achi03.github.io/Achi03-helloworld/forsat_channel_896x504.mp4
 
 #EXTINF:-1 tvg-ID="ucl" tvg-logo="https://s.id/1hhwF" group-title="SPORTS",LIVE 1 CHAMPIONS
-https://achi03.github.io/Achi03-helloworld/forsat_channel_896x504.mp4
+http://golive.yn.lt/live/champions/01.m3u8
 #EXTINF:-1 tvg-ID="ucl" tvg-logo="https://s.id/1hhwF" group-title="SPORTS",LIVE 2 CHANPIONS
-https://achi03.github.io/Achi03-helloworld/forsat_channel_896x504.mp4
+http://golive.yn.lt/live/champions/02.m3u8
 #EXTINF:-1 tvg-ID="ucl" tvg-logo="https://s.id/1hhwF" group-title="SPORTS",LIVE 3 CHAMPIONS
-https://achi03.github.io/Achi03-helloworld/forsat_channel_896x504.mp4
+http://golive.yn.lt/live/champions/03.m3u8
+#EXTINF:-1 tvg-ID="ucl" tvg-logo="https://s.id/1hhwF" group-title="SPORTS",LIVE 4 CHAMPIONS
+http://golive.yn.lt/live/champions/04.m3u8
+#EXTINF:-1 tvg-ID="ucl" tvg-logo="https://s.id/1hhwF" group-title="SPORTS",LIVE 5 CHAMPIONS
+http://golive.yn.lt/live/champions/05.m3u8
+#EXTINF:-1 tvg-ID="ucl" tvg-logo="https://s.id/1hhwF" group-title="SPORTS",LIVE 6 CHAMPIONS
+http://golive.yn.lt/live/champions/06.m3u8
+#EXTINF:-1 tvg-ID="ucl" tvg-logo="https://s.id/1hhwF" group-title="SPORTS",LIVE 7 CHAMPIONS
+http://golive.yn.lt/live/champions/07.m3u8
+#EXTINF:-1 tvg-ID="ucl" tvg-logo="https://s.id/1hhwF" group-title="SPORTS",LIVE 8 CHAMPIONS
+http://golive.yn.lt/live/champions/08.m3u8
+#EXTINF:-1 tvg-ID="ucl" tvg-logo="https://s.id/1hhwF" group-title="SPORTS",LIVE 9 CHAMPIONS
+http://golive.yn.lt/live/champions/09.m3u8
 
 #EXTINF:-1 tvg-ID="uefa" tvg-logo="https://s.id/1hhyH" group-title="SPORTS",LIVE 1 UEFA
 https://achi03.github.io/Achi03-helloworld/forsat_channel_896x504.mp4
