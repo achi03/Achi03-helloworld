@@ -1020,8 +1020,8 @@ https://skjattagrp.ml/j065Fk.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="sonypix" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTo_ZaBSul40kEWZB2bSitVe_e0cIKbYjeEQ&usqp=CAU" group-title="SPORTS",SONY PIX
-https://achi03.github.io/Achi03-helloworld/forsat_channel_896x504.mp4
+#EXTINF:-1 tvg-ID="nhkworldpremium" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToxnQkyBc0gCjsOzDjfACkVTMnktbcIjGyzg&usqp=CAU" group-title="SPORTS",NHK WORLD PREMIUM
+https://liveanevia.mncnow.id/live/eds/NHKWorldPremium/sa_dash_vmx/NHKWorldPremium.mpd
 #EXTINF:-1 tvg-ID="live1" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0H3AK7c2mxRvHu4J_sWqs2xkmooL-kvGf_iuZYl8vWqJuTpv8rJOdm4ZD&s=10" group-title="SPORTS",LIVE 1
 http://golive.yn.lt/live/bola/01.m3u8
 #EXTINF:-1 tvg-ID="live2" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0H3AK7c2mxRvHu4J_sWqs2xkmooL-kvGf_iuZYl8vWqJuTpv8rJOdm4ZD&s=10" group-title="SPORTS",LIVE 2
