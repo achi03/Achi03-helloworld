@@ -1077,11 +1077,23 @@ http://golive.yn.lt/live/liga1/02.m3u8
 http://golive.yn.lt/live/liga1/03.m3u8
 
 #EXTINF:-1 tvg-ID="epl" tvg-logo="https://s.id/1hhw2" group-title="SPORTS",LIVE 1 EPL
-https://achi03.github.io/Achi03-helloworld/forsat_channel_896x504.mp4
+http://warkop.cf/86/epl/01.m3u8
 #EXTINF:-1 tvg-ID="epl" tvg-logo="https://s.id/1hhw2" group-title="SPORTS",LIVE 2 EPL
-https://achi03.github.io/Achi03-helloworld/forsat_channel_896x504.mp4
+http://warkop.cf/86/epl/02.m3u8
 #EXTINF:-1 tvg-ID="epl" tvg-logo="https://s.id/1hhw2" group-title="SPORTS",LIVE 3 EPL
-https://achi03.github.io/Achi03-helloworld/forsat_channel_896x504.mp4
+http://warkop.cf/86/epl/03.m3u8
+#EXTINF:-1 tvg-ID="epl" tvg-logo="https://s.id/1hhw2" group-title="SPORTS",LIVE 4 EPL
+http://warkop.cf/86/epl/04.m3u8
+#EXTINF:-1 tvg-ID="epl" tvg-logo="https://s.id/1hhw2" group-title="SPORTS",LIVE 5 EPL
+http://warkop.cf/86/epl/05.m3u8
+#EXTINF:-1 tvg-ID="epl" tvg-logo="https://s.id/1hhw2" group-title="SPORTS",LIVE 6 EPL
+http://warkop.cf/86/epl/06.m3u8
+#EXTINF:-1 tvg-ID="epl" tvg-logo="https://s.id/1hhw2" group-title="SPORTS",LIVE 7 EPL
+http://warkop.cf/86/epl/07.m3u8
+#EXTINF:-1 tvg-ID="epl" tvg-logo="https://s.id/1hhw2" group-title="SPORTS",LIVE 8 EPL
+http://warkop.cf/86/epl/08.m3u8
+#EXTINF:-1 tvg-ID="epl" tvg-logo="https://s.id/1hhw2" group-title="SPORTS",LIVE 9 EPL
+http://warkop.cf/86/epl/09.m3u8
 
 #EXTINF:-1 tvg-ID="ucl" tvg-logo="https://s.id/1hhwF" group-title="SPORTS",LIVE 1 CHAMPIONS
 http://golive.yn.lt/live/champions/01.m3u8
