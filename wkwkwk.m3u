@@ -1022,12 +1022,10 @@ http://0nelivezer0.rbnewtv.com:21190/neptune/sonysix/playlist.m3u8?wmsAuthSign=c
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="sonypix" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTo_ZaBSul40kEWZB2bSitVe_e0cIKbYjeEQ&usqp=CAU" group-title="SPORTS",SONY PIX
 https://achi03.github.io/Achi03-helloworld/forsat_channel_896x504.mp4
-
-
 #EXTINF:-1 tvg-ID="live1" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0H3AK7c2mxRvHu4J_sWqs2xkmooL-kvGf_iuZYl8vWqJuTpv8rJOdm4ZD&s=10" group-title="SPORTS",LIVE 1
 http://golive.yn.lt/live/bola/01.m3u8
 #EXTINF:-1 tvg-ID="live2" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0H3AK7c2mxRvHu4J_sWqs2xkmooL-kvGf_iuZYl8vWqJuTpv8rJOdm4ZD&s=10" group-title="SPORTS",LIVE 2
-http://tvn.x10.mx/live/master.m3u8
+http://golive.yn.lt/live/bola/02.m3u8
 #EXTINF:-1 tvg-ID="live3" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0H3AK7c2mxRvHu4J_sWqs2xkmooL-kvGf_iuZYl8vWqJuTpv8rJOdm4ZD&s=10" group-title="SPORTS",LIVE 3
 http://golive.yn.lt/live/bola/03.m3u8
 #EXTINF:-1 tvg-ID="live4" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0H3AK7c2mxRvHu4J_sWqs2xkmooL-kvGf_iuZYl8vWqJuTpv8rJOdm4ZD&s=10" group-title="SPORTS",LIVE 4
