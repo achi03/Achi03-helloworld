@@ -1071,6 +1071,15 @@ http://golive.yn.lt/live/bundesliga/02.m3u8
 #EXTINF:-1 tvg-ID="bundesliga" tvg-logo="https://s.id/1hhro" group-title="SPORTS",LIVE 3 BUNDESLIGA
 http://golive.yn.lt/live/bundesliga/03.m3u8
 
+
+#EXTINF:-1 tvg-ID="liga1" tvg-logo="https://s.id/1hhtL" group-title="SPORTS",LIVE 1 LIGA BRI
+http://golive.yn.lt/live/liga1/01.m3u8
+#EXTINF:-1 tvg-ID="liga1" tvg-logo="https://s.id/1hhtL" group-title="SPORTS",LIVE 2 LIGA BRI
+http://golive.yn.lt/live/liga1/02.m3u8
+#EXTINF:-1 tvg-ID="liga1" tvg-logo="https://s.id/1hhtL" group-title="SPORTS",LIVE 3 LIGA BRI
+http://golive.yn.lt/live/liga1/03.m3u8
+
+
 #EXTINF:-1 group-title="PLUTO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLq0lsiA8gUOHC2wNuUShJCNisFDauOUADIQ&usqp=CAU",PLUTO TV 1
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1ac8588734f8000823b7de/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&content_rating=ROKU_ADS_CONTENT_RATING
 #EXTINF:-1 group-title="PLUTO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLq0lsiA8gUOHC2wNuUShJCNisFDauOUADIQ&usqp=CAU",PLUTO TV 2
