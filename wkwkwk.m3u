@@ -1049,24 +1049,28 @@ http://golive.yn.lt/live/laliga/01.m3u8
 http://golive.yn.lt/live/laliga/02.m3u8
 #EXTINF:-1 tvg-ID="laliga" tvg-logo="https://s.id/1hhpW" group-title="SPORTS",LIVE 3 LALIGA
 http://golive.yn.lt/live/laliga/03.m3u8
-#EXTINF:-1 tvg-ID="seria" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0H3AK7c2mxRvHu4J_sWqs2xkmooL-kvGf_iuZYl8vWqJuTpv8rJOdm4ZD&s=10" group-title="SPORTS",LIVE 1 SERI A
+
+#EXTINF:-1 tvg-ID="seria" tvg-logo="https://s.id/1hhqL" group-title="SPORTS",LIVE 1 SERI A
 http://golive.yn.lt/live/seriea/01.m3u8
-#EXTINF:-1 tvg-ID="seria" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0H3AK7c2mxRvHu4J_sWqs2xkmooL-kvGf_iuZYl8vWqJuTpv8rJOdm4ZD&s=10" group-title="SPORTS",LIVE 2 SERI A
+#EXTINF:-1 tvg-ID="seria" tvg-logo="https://s.id/1hhqL" group-title="SPORTS",LIVE 2 SERI A
 http://golive.yn.lt/live/seriea/02.m3u8
-#EXTINF:-1 tvg-ID="seria" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0H3AK7c2mxRvHu4J_sWqs2xkmooL-kvGf_iuZYl8vWqJuTpv8rJOdm4ZD&s=10" group-title="SPORTS",LIVE 3 SERI A
+#EXTINF:-1 tvg-ID="seria" tvg-logo="https://s.id/1hhqL" group-title="SPORTS",LIVE 3 SERI A
 http://golive.yn.lt/live/seriea/03.m3u8
+
 #EXTINF:-1 tvg-ID="france" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0H3AK7c2mxRvHu4J_sWqs2xkmooL-kvGf_iuZYl8vWqJuTpv8rJOdm4ZD&s=10" group-title="SPORTS",LIVE 1 LIGA FRANCE
 http://golive.yn.lt/live/ligue1/01.m3u8
 #EXTINF:-1 tvg-ID="france" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0H3AK7c2mxRvHu4J_sWqs2xkmooL-kvGf_iuZYl8vWqJuTpv8rJOdm4ZD&s=10" group-title="SPORTS",LIVE 2 LIGA FRANCE
 http://golive.yn.lt/live/ligue1/02.m3u8
 #EXTINF:-1 tvg-ID="france" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0H3AK7c2mxRvHu4J_sWqs2xkmooL-kvGf_iuZYl8vWqJuTpv8rJOdm4ZD&s=10" group-title="SPORTS",LIVE 3 LIGA FRANCE
 http://golive.yn.lt/live/ligue1/03.m3u8
+
 #EXTINF:-1 tvg-ID="bundesliga" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0H3AK7c2mxRvHu4J_sWqs2xkmooL-kvGf_iuZYl8vWqJuTpv8rJOdm4ZD&s=10" group-title="SPORTS",LIVE 1 BUNDESLIGA
 http://golive.yn.lt/live/bundesliga/01.m3u8
 #EXTINF:-1 tvg-ID="bundesliga" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0H3AK7c2mxRvHu4J_sWqs2xkmooL-kvGf_iuZYl8vWqJuTpv8rJOdm4ZD&s=10" group-title="SPORTS",LIVE 2 BUNDESLIGA
 http://golive.yn.lt/live/bundesliga/02.m3u8
 #EXTINF:-1 tvg-ID="bundesliga" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0H3AK7c2mxRvHu4J_sWqs2xkmooL-kvGf_iuZYl8vWqJuTpv8rJOdm4ZD&s=10" group-title="SPORTS",LIVE 3 BUNDESLIGA
 http://golive.yn.lt/live/bundesliga/03.m3u8
+
 #EXTINF:-1 group-title="PLUTO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLq0lsiA8gUOHC2wNuUShJCNisFDauOUADIQ&usqp=CAU",PLUTO TV 1
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1ac8588734f8000823b7de/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&content_rating=ROKU_ADS_CONTENT_RATING
 #EXTINF:-1 group-title="PLUTO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLq0lsiA8gUOHC2wNuUShJCNisFDauOUADIQ&usqp=CAU",PLUTO TV 2
