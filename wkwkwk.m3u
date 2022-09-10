@@ -161,8 +161,8 @@ http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5df975e2b27cf5000921c1
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="xembd" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThYa0rWpJZVQ3nnXD58s0xdjH_I_2P77AECg&usqp=CAU" group-title="VISION+",XEMBD
-https://achi03.github.io/Achi03-helloworld/forsat_channel_896x504.mp4
+#EXTINF:-1 tvg-ID="cna" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUrJBWu97A-891PEVtzXflgFhviEMKXq5D5A&usqp=CAU" group-title="VISION+",CNA
+https://liveanevia.mncnow.id/live/eds/ChannelNewsAsia/sa_dash_vmx/ChannelNewsAsia.mpd
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
