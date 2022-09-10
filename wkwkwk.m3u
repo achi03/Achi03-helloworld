@@ -1048,6 +1048,12 @@ http://golive.yn.lt/live/laliga/01.m3u8
 http://golive.yn.lt/live/laliga/02.m3u8
 #EXTINF:-1 tvg-ID="laliga" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0H3AK7c2mxRvHu4J_sWqs2xkmooL-kvGf_iuZYl8vWqJuTpv8rJOdm4ZD&s=10" group-title="SPORTS",LIVE 3 LALIGA
 http://golive.yn.lt/live/laliga/03.m3u8
+#EXTINF:-1 tvg-ID="seria" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0H3AK7c2mxRvHu4J_sWqs2xkmooL-kvGf_iuZYl8vWqJuTpv8rJOdm4ZD&s=10" group-title="SPORTS",LIVE 1 SERI A
+http://golive.yn.lt/live/seriea/01.m3u8
+#EXTINF:-1 tvg-ID="seria" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0H3AK7c2mxRvHu4J_sWqs2xkmooL-kvGf_iuZYl8vWqJuTpv8rJOdm4ZD&s=10" group-title="SPORTS",LIVE 2 SERI A
+http://golive.yn.lt/live/seriea/02.m3u8
+#EXTINF:-1 tvg-ID="seria" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0H3AK7c2mxRvHu4J_sWqs2xkmooL-kvGf_iuZYl8vWqJuTpv8rJOdm4ZD&s=10" group-title="SPORTS",LIVE 3 SERI A
+http://golive.yn.lt/live/seriea/03.m3u8
 
 
 
