@@ -1010,7 +1010,7 @@ https://d14a5mi0m64mw7.cloudfront.net/out/v1/8a240d2e8a64453da6288810ede90a60/in
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="sonyten1" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVnkbXt769CPKnH4Q6F7rEqsUCrI3xoXT_7A&usqp=CAU" group-title="SPORTS",SONY TEN 1
+#EXTINF:-1 tvg-ID="supersport" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVnkbXt769CPKnH4Q6F7rEqsUCrI3xoXT_7A&usqp=CAU" group-title="SPORTS",SUPER SPORT
 https://lshstream.xyz/hls/allsportsicu02/index.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -1029,17 +1029,17 @@ http://golive.yn.lt/live/bola/02.m3u8
 #EXTINF:-1 tvg-ID="live3" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0H3AK7c2mxRvHu4J_sWqs2xkmooL-kvGf_iuZYl8vWqJuTpv8rJOdm4ZD&s=10" group-title="SPORTS",LIVE 3
 http://golive.yn.lt/live/bola/03.m3u8
 #EXTINF:-1 tvg-ID="live4" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0H3AK7c2mxRvHu4J_sWqs2xkmooL-kvGf_iuZYl8vWqJuTpv8rJOdm4ZD&s=10" group-title="SPORTS",LIVE 4
-http://warkop.cf/86/bola/04.m3u8
+http://golive.yn.lt/live/bola/04.m3u8
 #EXTINF:-1 tvg-ID="live5" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0H3AK7c2mxRvHu4J_sWqs2xkmooL-kvGf_iuZYl8vWqJuTpv8rJOdm4ZD&s=10" group-title="SPORTS",LIVE 5
-http://warkop.cf/86/bola/05.m3u8
+http://golive.yn.lt/live/bola/05.m3u8
 #EXTINF:-1 tvg-ID="live6" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0H3AK7c2mxRvHu4J_sWqs2xkmooL-kvGf_iuZYl8vWqJuTpv8rJOdm4ZD&s=10" group-title="SPORTS",LIVE 6
-http://warkop.cf/86/bola/06.m3u8
+http://golive.yn.lt/live/bola/06.m3u8
 #EXTINF:-1 tvg-ID="live7" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0H3AK7c2mxRvHu4J_sWqs2xkmooL-kvGf_iuZYl8vWqJuTpv8rJOdm4ZD&s=10" group-title="SPORTS",LIVE 7
-http://warkop.cf/86/bola/07.m3u8
+http://golive.yn.lt/live/bola/07.m3u8
 #EXTINF:-1 tvg-ID="live8" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0H3AK7c2mxRvHu4J_sWqs2xkmooL-kvGf_iuZYl8vWqJuTpv8rJOdm4ZD&s=10" group-title="SPORTS",LIVE 8
-http://warkop.cf/86/bola/08.m3u8
+http://golive.yn.lt/live/bola/08.m3u8
 #EXTINF:-1 tvg-ID="live9" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0H3AK7c2mxRvHu4J_sWqs2xkmooL-kvGf_iuZYl8vWqJuTpv8rJOdm4ZD&s=10" group-title="SPORTS",LIVE 9
-http://warkop.cf/86/bola/09.m3u8
+http://golive.yn.lt/live/bola/09.m3u8
 #EXTINF:-1 group-title="PLUTO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLq0lsiA8gUOHC2wNuUShJCNisFDauOUADIQ&usqp=CAU",PLUTO TV 1
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1ac8588734f8000823b7de/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&content_rating=ROKU_ADS_CONTENT_RATING
 #EXTINF:-1 group-title="PLUTO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLq0lsiA8gUOHC2wNuUShJCNisFDauOUADIQ&usqp=CAU",PLUTO TV 2
