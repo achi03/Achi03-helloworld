@@ -1196,6 +1196,20 @@ http://golive.yn.lt/live/volleyball/02.m3u8
 #EXTINF:-1 tvg-ID="volly" tvg-logo="https://s.id/1hhMo" group-title="SPORTS",LIVE 3 VOLLY BALL
 http://golive.yn.lt/live/volleyball/03.m3u8
 
+#EXTINF:-1 tvg-ID="tennis" tvg-logo="https://s.id/1hhNB" group-title="SPORTS",LIVE 1 TENNIS
+http://warkop.cf/86/tennis/01.m3u8
+#EXTINF:-1 tvg-ID="tennis" tvg-logo="https://s.id/1hhNB" group-title="SPORTS",LIVE 2 TENNIS
+http://warkop.cf/86/tennis/02.m3u8
+#EXTINF:-1 tvg-ID="tennis" tvg-logo="https://s.id/1hhNB" group-title="SPORTS",LIVE 3 TENNIS
+http://warkop.cf/86/tennis/03.m3u8
+#EXTINF:-1 tvg-ID="tennis" tvg-logo="https://s.id/1hhNB" group-title="SPORTS",LIVE 4 TENNIS
+http://warkop.cf/86/tennis/04.m3u8
+#EXTINF:-1 tvg-ID="tennis" tvg-logo="https://s.id/1hhNB" group-title="SPORTS",LIVE 5 TENNIS
+http://warkop.cf/86/tennis/05.m3u8
+#EXTINF:-1 tvg-ID="tennis" tvg-logo="https://s.id/1hhNB" group-title="SPORTS",LIVE 6 TENNIS
+http://warkop.cf/86/tennis/06.m3u8
+
+
 
 #EXTINF:-1 group-title="PLUTO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLq0lsiA8gUOHC2wNuUShJCNisFDauOUADIQ&usqp=CAU",PLUTO TV 1
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1ac8588734f8000823b7de/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&content_rating=ROKU_ADS_CONTENT_RATING
