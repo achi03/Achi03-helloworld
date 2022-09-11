@@ -1022,23 +1022,23 @@ https://achi03.github.io/Achi03-helloworld/forsat_channel_896x504.mp4
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="nhkworldpremium" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToxnQkyBc0gCjsOzDjfACkVTMnktbcIjGyzg&usqp=CAU" group-title="SPORTS",NHK WORLD PREMIUM
 https://liveanevia.mncnow.id/live/eds/NHKWorldPremium/sa_dash_vmx/NHKWorldPremium.mpd
-#EXTINF:-1 tvg-ID="live1" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0H3AK7c2mxRvHu4J_sWqs2xkmooL-kvGf_iuZYl8vWqJuTpv8rJOdm4ZD&s=10" group-title="SPORTS",LIVE 1
+#EXTINF:-1 tvg-ID="live1" tvg-logo="https://s.id/1hlmo" group-title="SPORTS",LIVE 1
 http://golive.yn.lt/live/bola/01.m3u8
-#EXTINF:-1 tvg-ID="live2" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0H3AK7c2mxRvHu4J_sWqs2xkmooL-kvGf_iuZYl8vWqJuTpv8rJOdm4ZD&s=10" group-title="SPORTS",LIVE 2
+#EXTINF:-1 tvg-ID="live2" tvg-logo="https://s.id/1hlmo" group-title="SPORTS",LIVE 2
 http://golive.yn.lt/live/bola/02.m3u8
-#EXTINF:-1 tvg-ID="live3" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0H3AK7c2mxRvHu4J_sWqs2xkmooL-kvGf_iuZYl8vWqJuTpv8rJOdm4ZD&s=10" group-title="SPORTS",LIVE 3
+#EXTINF:-1 tvg-ID="live3" tvg-logo="https://s.id/1hlmo" group-title="SPORTS",LIVE 3
 http://golive.yn.lt/live/bola/03.m3u8
-#EXTINF:-1 tvg-ID="live4" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0H3AK7c2mxRvHu4J_sWqs2xkmooL-kvGf_iuZYl8vWqJuTpv8rJOdm4ZD&s=10" group-title="SPORTS",LIVE 4
+#EXTINF:-1 tvg-ID="live4" tvg-logo="https://s.id/1hlmo" group-title="SPORTS",LIVE 4
 http://golive.yn.lt/live/bola/04.m3u8
-#EXTINF:-1 tvg-ID="live5" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0H3AK7c2mxRvHu4J_sWqs2xkmooL-kvGf_iuZYl8vWqJuTpv8rJOdm4ZD&s=10" group-title="SPORTS",LIVE 5
+#EXTINF:-1 tvg-ID="live5" tvg-logo="https://s.id/1hlmo" group-title="SPORTS",LIVE 5
 http://golive.yn.lt/live/bola/05.m3u8
-#EXTINF:-1 tvg-ID="live6" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0H3AK7c2mxRvHu4J_sWqs2xkmooL-kvGf_iuZYl8vWqJuTpv8rJOdm4ZD&s=10" group-title="SPORTS",LIVE 6
+#EXTINF:-1 tvg-ID="live6" tvg-logo="https://s.id/1hlmo" group-title="SPORTS",LIVE 6
 http://golive.yn.lt/live/bola/06.m3u8
-#EXTINF:-1 tvg-ID="live7" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0H3AK7c2mxRvHu4J_sWqs2xkmooL-kvGf_iuZYl8vWqJuTpv8rJOdm4ZD&s=10" group-title="SPORTS",LIVE 7
+#EXTINF:-1 tvg-ID="live7" tvg-logo="https://s.id/1hlmo" group-title="SPORTS",LIVE 7
 http://golive.yn.lt/live/bola/07.m3u8
-#EXTINF:-1 tvg-ID="live8" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0H3AK7c2mxRvHu4J_sWqs2xkmooL-kvGf_iuZYl8vWqJuTpv8rJOdm4ZD&s=10" group-title="SPORTS",LIVE 8
+#EXTINF:-1 tvg-ID="live8" tvg-logo="https://s.id/1hlmo" group-title="SPORTS",LIVE 8
 http://golive.yn.lt/live/bola/08.m3u8
-#EXTINF:-1 tvg-ID="live9" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0H3AK7c2mxRvHu4J_sWqs2xkmooL-kvGf_iuZYl8vWqJuTpv8rJOdm4ZD&s=10" group-title="SPORTS",LIVE 9
+#EXTINF:-1 tvg-ID="live9" tvg-logo="https://s.id/1hlmo" group-title="SPORTS",LIVE 9
 http://golive.yn.lt/live/bola/09.m3u8
 
 #EXTINF:-1 tvg-ID="laliga" tvg-logo="https://s.id/1hhpW" group-title="SPORTS",LIVE 1 LALIGA
