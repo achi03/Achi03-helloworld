@@ -1127,6 +1127,24 @@ http://golive.yn.lt/live/champions/07.m3u8
 http://golive.yn.lt/live/champions/08.m3u8
 #EXTINF:-1 tvg-ID="ucl" tvg-logo="https://s.id/1hhwF" group-title="SPORTS",LIVE 9 CHAMPIONS
 http://golive.yn.lt/live/champions/09.m3u8
+#EXTINF:-1 tvg-ID="ucl" tvg-logo="https://s.id/1hhwF" group-title="SPORTS",LIVE 10 CHAMPIONS
+http://golive.yn.lt/live/ucl/01.m3u8
+#EXTINF:-1 tvg-ID="ucl" tvg-logo="https://s.id/1hhwF" group-title="SPORTS",LIVE 11 CHAMPIONS
+http://golive.yn.lt/live/ucl/02.m3u8
+#EXTINF:-1 tvg-ID="ucl" tvg-logo="https://s.id/1hhwF" group-title="SPORTS",LIVE 12 CHAMPIONS
+http://golive.yn.lt/live/ucl/03.m3u8
+#EXTINF:-1 tvg-ID="ucl" tvg-logo="https://s.id/1hhwF" group-title="SPORTS",LIVE 13 CHAMPIONS
+http://golive.yn.lt/live/ucl/04.m3u8
+#EXTINF:-1 tvg-ID="ucl" tvg-logo="https://s.id/1hhwF" group-title="SPORTS",LIVE 14 CHAMPIONS
+http://golive.yn.lt/live/ucl/05.m3u8
+#EXTINF:-1 tvg-ID="ucl" tvg-logo="https://s.id/1hhwF" group-title="SPORTS",LIVE 15 CHAMPIONS
+http://golive.yn.lt/live/ucl/06.m3u8
+#EXTINF:-1 tvg-ID="ucl" tvg-logo="https://s.id/1hhwF" group-title="SPORTS",LIVE 16 CHAMPIONS
+http://golive.yn.lt/live/ucl/07.m3u8
+#EXTINF:-1 tvg-ID="ucl" tvg-logo="https://s.id/1hhwF" group-title="SPORTS",LIVE 17 CHAMPIONS
+http://golive.yn.lt/live/ucl/08.m3u8
+#EXTINF:-1 tvg-ID="ucl" tvg-logo="https://s.id/1hhwF" group-title="SPORTS",LIVE 18 CHAMPIONS
+http://golive.yn.lt/live/ucl/09.m3u8
 
 #EXTINF:-1 tvg-ID="uefa" tvg-logo="https://s.id/1hhyH" group-title="SPORTS",LIVE 1 UEFA
 http://warkop.cf/86/uel/01.m3u8
