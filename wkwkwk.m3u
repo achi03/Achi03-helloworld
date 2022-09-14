@@ -1083,6 +1083,12 @@ http://golive.yn.lt/live/liga2/02.m3u8
 #EXTINF:-1 tvg-ID="liga2" tvg-logo="https://s.id/1hl7A" group-title="SPORTS",LIVE 3 LIGA 2
 http://golive.yn.lt/live/liga2/03.m3u8
 
+#EXTINF:-1 tvg-ID="afccup" tvg-logo="https://s.id/1hH1F" group-title="SPORTS",LIVE 1 AFC CUP
+http://golive.yn.lt/live/afc/01.m3u8
+#EXTINF:-1 tvg-ID="afccup" tvg-logo="https://s.id/1hH1F" group-title="SPORTS",LIVE 2 AFC CUP
+http://golive.yn.lt/live/afc/02.m3u8
+#EXTINF:-1 tvg-ID="afccup" tvg-logo="https://s.id/1hH1F" group-title="SPORTS",LIVE 3 AFC CUP
+http://golive.yn.lt/live/afc/03.m3u8
 
 #EXTINF:-1 tvg-ID="epl" tvg-logo="https://s.id/1hhw2" group-title="SPORTS",LIVE 1 EPL
 http://warkop.cf/86/epl/01.m3u8
