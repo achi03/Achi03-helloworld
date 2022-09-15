@@ -1,0 +1,26 @@
+<!-- Include Radiant Media Player - here we use the optimised build for hls.js -->
+<script src="https://cdn.radiantmediatechs.com/rmp/7.11.3/js/rmp-hlsjs.min.js"></script>
+<!-- Player container element -->
+<div id="rmp"></div>
+<!-- Set up player configuration options -->
+<script>
+  // DVR HLS source
+  const src = {
+    hls: 'http://playlist.urfan.web.id/uq2663/h/h18/01.m3u8'
+  };
+  // Your player settings
+  const settings = {
+    licenseKey: 'Y21taWlta2dpZSEqXyU5czBzZWtnYzgwMnllaT9yb201ZGFzaXMzMGRiMEElXyo=',
+    src: src,
+    width: 640,
+    height: 360,
+    dvrUIThreshold: 120,
+    contentMetadata: {
+      poster: [
+        'https://your-poster-url.jpg'
+      ]
+    }
+  };
+  const rmp = new RadiantMP('rmp');
+  rmp.init(settings);
+</script>
