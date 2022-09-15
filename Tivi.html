@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <title>Radiant Media Player - Example iframe embedding</title>
+  <style>
+    /* This CSS is required to avoid layout issues */
+    html,
+    body {
+      height: 220;
+      width: 100%;
+      background-color: #000;
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+<body>
+  <script src="https://cdn.radiantmediatechs.com/rmp/7.11.3/js/rmp.min.js"></script>
+  <div id="rmp"></div>
+  <script>
+    var src = {
+      mp4: [
+        'https://tv.tas-ix.tv/hls/token_28.m3u8',
+        'https://tv.tas-ix.tv/hls/token_28.m3u8',
+        'https://tv.tas-ix.tv/hls/token_28.m3u8',
+        'https://tv.tas-ix.tv/hls/token_28.m3u8'
+      ],
+      hls: 'https://tv.tas-ix.tv/hls/token_28.m3u8''
+    };
+    var settings = {
+      iframeMode: true,
+      iframeAllowed: true,
+      licenseKey: 'Kl8lbz16cz1rN2l2enM9Z2M9NnZvMnllaT9yb201ZGFzaXMzMGRiMEElXyo=',
+      src: src,
+      skin: 's1',
+      contentMetadata: {
+        poster: ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0sFHPS4Jrk6Z-4hI3_rDMf7v7uSMSfahm_A&usqp=CAU']
+      }
+    };
+    var rmp = new RadiantMP("rmp");
+    rmp.init(settings);
+    rmp.getLivePresentationStartTimeAsDate()
+    rmp.getLiveCurrentTime()
+    rmp.getLiveDuration()
+  </script>
+</body>
+</html>
