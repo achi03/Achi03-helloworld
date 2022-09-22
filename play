@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plyr.io YouTube Embeded Video Player</title>
+    <!-- Docs styles -->
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.3/demo.css" />
+</head>
+
+<body>
+    <div style="width: 500px;" class="plyr__video-embed" id="player">
+        <iframe src="https://www.youtube.com/embed/bTqVqk7FSmY" allowfullscreen
+            allowtransparency
+            allow="autoplay">
+        </iframe>
+    </div>
+
+    <script src="https://cdn.plyr.io/3.6.3/demo.js"></script>
+
+
+</body>
+
+</html>
