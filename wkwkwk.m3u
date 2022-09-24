@@ -1134,7 +1134,14 @@ http://golive.yn.lt/live/friendly/01.m3u8
 #EXTINF:-1 tvg-ID="liga1" tvg-logo="https://s.id/1iMKg" group-title="SPORTS",LIVE 2 FRIENDLY MATCH
 http://golive.yn.lt/live/friendly/02.m3u8
 #EXTINF:-1 tvg-ID="liga1" tvg-logo="https://s.id/1iMKg" group-title="SPORTS",LIVE 3 FRIENDLY MATCH
-http://golive.yn.lt/live/friendly/02.m3u8
+http://golive.yn.lt/live/friendly/03.m3u8
+
+#EXTINF:-1 tvg-ID="liga1" tvg-logo="https://s.id/1iMKg" group-title="SPORTS",LIVE 3 FRIENDLY MATCH
+http://golive.yn.lt/live/friendly/07.m3u8
+#EXTINF:-1 tvg-ID="liga1" tvg-logo="https://s.id/1iMKg" group-title="SPORTS",LIVE 3 FRIENDLY MATCH
+http://golive.yn.lt/live/friendly/08.m3u8
+#EXTINF:-1 tvg-ID="liga1" tvg-logo="https://s.id/1iMKg" group-title="SPORTS",LIVE 3 FRIENDLY MATCH
+http://golive.yn.lt/live/friendly/09.m3u8
 
 #EXTINF:-1 tvg-ID="liga2" tvg-logo="https://s.id/1hl7A" group-title="SPORTS",LIVE 1 LIGA 2
 http://golive.yn.lt/live/liga2/01.m3u8
