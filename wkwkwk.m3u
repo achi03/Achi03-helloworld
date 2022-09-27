@@ -1069,7 +1069,7 @@ https://lshstream.xyz/hls/allsportsicu02/index.m3u8
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="dangduttv" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfIhOqOgpbu5i_rVtZhKLWfgepuLFzA_6ARw&usqp=CAU" group-title="SPORTS",DANGDUT TV
-http://bravo.kugo.id:1935/dangduttivi/udp.stream_360p/playlist.m3u8
+https://alfa.kugo.id/playout/maleo.stream_360p/playlist.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
