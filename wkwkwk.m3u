@@ -1100,6 +1100,18 @@ http://golive.yn.lt/live/laliga/01.m3u8
 http://golive.yn.lt/live/laliga/02.m3u8
 #EXTINF:-1 tvg-ID="laliga" tvg-logo="https://s.id/1hhpW" group-title="SPORTS",LIVE 3 LALIGA
 http://golive.yn.lt/live/laliga/03.m3u8
+#EXTINF:-1 tvg-ID="laliga" tvg-logo="https://s.id/1hhpW" group-title="SPORTS",LIVE 4 LALIGA
+http://golive.yn.lt/live/laliga/04.m3u8
+#EXTINF:-1 tvg-ID="laliga" tvg-logo="https://s.id/1hhpW" group-title="SPORTS",LIVE 5 LALIGA
+http://golive.yn.lt/live/laliga/05.m3u8
+#EXTINF:-1 tvg-ID="laliga" tvg-logo="https://s.id/1hhpW" group-title="SPORTS",LIVE 6 LALIGA
+http://golive.yn.lt/live/laliga/06.m3u8
+#EXTINF:-1 tvg-ID="laliga" tvg-logo="https://s.id/1hhpW" group-title="SPORTS",LIVE 7 LALIGA
+http://golive.yn.lt/live/laliga/07.m3u8
+#EXTINF:-1 tvg-ID="laliga" tvg-logo="https://s.id/1hhpW" group-title="SPORTS",LIVE 8 LALIGA
+http://golive.yn.lt/live/laliga/08.m3u8
+#EXTINF:-1 tvg-ID="laliga" tvg-logo="https://s.id/1hhpW" group-title="SPORTS",LIVE 9 LALIGA
+http://golive.yn.lt/live/laliga/09.m3u8
 
 #EXTINF:-1 tvg-ID="seria" tvg-logo="https://s.id/1hhqL" group-title="SPORTS",LIVE 1 SERI A
 http://golive.yn.lt/live/seriea/01.m3u8
@@ -1107,6 +1119,18 @@ http://golive.yn.lt/live/seriea/01.m3u8
 http://golive.yn.lt/live/seriea/02.m3u8
 #EXTINF:-1 tvg-ID="seria" tvg-logo="https://s.id/1hhqL" group-title="SPORTS",LIVE 3 SERI A
 http://golive.yn.lt/live/seriea/03.m3u8
+#EXTINF:-1 tvg-ID="seria" tvg-logo="https://s.id/1hhqL" group-title="SPORTS",LIVE 4 SERI A
+http://golive.yn.lt/live/seriea/04.m3u8
+#EXTINF:-1 tvg-ID="seria" tvg-logo="https://s.id/1hhqL" group-title="SPORTS",LIVE 5 SERI A
+http://golive.yn.lt/live/seriea/05.m3u8
+#EXTINF:-1 tvg-ID="seria" tvg-logo="https://s.id/1hhqL" group-title="SPORTS",LIVE 6 SERI A
+http://golive.yn.lt/live/seriea/06.m3u8
+#EXTINF:-1 tvg-ID="seria" tvg-logo="https://s.id/1hhqL" group-title="SPORTS",LIVE 7 SERI A
+http://golive.yn.lt/live/seriea/07.m3u8
+#EXTINF:-1 tvg-ID="seria" tvg-logo="https://s.id/1hhqL" group-title="SPORTS",LIVE 8 SERI A
+http://golive.yn.lt/live/seriea/08.m3u8
+#EXTINF:-1 tvg-ID="seria" tvg-logo="https://s.id/1hhqL" group-title="SPORTS",LIVE 9 SERI A
+http://golive.yn.lt/live/seriea/09.m3u8
 
 #EXTINF:-1 tvg-ID="france" tvg-logo="https://s.id/1hhsp" group-title="SPORTS",LIVE 1 LIGUE 1
 http://golive.yn.lt/live/ligue1/01.m3u8
@@ -1114,6 +1138,18 @@ http://golive.yn.lt/live/ligue1/01.m3u8
 http://golive.yn.lt/live/ligue1/02.m3u8
 #EXTINF:-1 tvg-ID="france" tvg-logo="https://s.id/1hhsp" group-title="SPORTS",LIVE 3 LIGUE 1
 http://golive.yn.lt/live/ligue1/03.m3u8
+#EXTINF:-1 tvg-ID="france" tvg-logo="https://s.id/1hhsp" group-title="SPORTS",LIVE 4 LIGUE 1
+http://golive.yn.lt/live/ligue1/04.m3u8
+#EXTINF:-1 tvg-ID="france" tvg-logo="https://s.id/1hhsp" group-title="SPORTS",LIVE 5 LIGUE 1
+http://golive.yn.lt/live/ligue1/05.m3u8
+#EXTINF:-1 tvg-ID="france" tvg-logo="https://s.id/1hhsp" group-title="SPORTS",LIVE 6 LIGUE 1
+http://golive.yn.lt/live/ligue1/06.m3u8
+#EXTINF:-1 tvg-ID="france" tvg-logo="https://s.id/1hhsp" group-title="SPORTS",LIVE 7 LIGUE 1
+http://golive.yn.lt/live/ligue1/07.m3u8
+#EXTINF:-1 tvg-ID="france" tvg-logo="https://s.id/1hhsp" group-title="SPORTS",LIVE 8 LIGUE 1
+http://golive.yn.lt/live/ligue1/08.m3u8
+#EXTINF:-1 tvg-ID="france" tvg-logo="https://s.id/1hhsp" group-title="SPORTS",LIVE 9 LIGUE 1
+http://golive.yn.lt/live/ligue1/09.m3u8
 
 #EXTINF:-1 tvg-ID="bundesliga" tvg-logo="https://s.id/1hhro" group-title="SPORTS",LIVE 1 BUNDESLIGA
 http://golive.yn.lt/live/bundesliga/01.m3u8
@@ -1121,6 +1157,18 @@ http://golive.yn.lt/live/bundesliga/01.m3u8
 http://golive.yn.lt/live/bundesliga/02.m3u8
 #EXTINF:-1 tvg-ID="bundesliga" tvg-logo="https://s.id/1hhro" group-title="SPORTS",LIVE 3 BUNDESLIGA
 http://golive.yn.lt/live/bundesliga/03.m3u8
+#EXTINF:-1 tvg-ID="bundesliga" tvg-logo="https://s.id/1hhro" group-title="SPORTS",LIVE 4 BUNDESLIGA
+http://golive.yn.lt/live/bundesliga/04.m3u8
+#EXTINF:-1 tvg-ID="bundesliga" tvg-logo="https://s.id/1hhro" group-title="SPORTS",LIVE 5 BUNDESLIGA
+http://golive.yn.lt/live/bundesliga/05.m3u8
+#EXTINF:-1 tvg-ID="bundesliga" tvg-logo="https://s.id/1hhro" group-title="SPORTS",LIVE 6 BUNDESLIGA
+http://golive.yn.lt/live/bundesliga/06.m3u8
+#EXTINF:-1 tvg-ID="bundesliga" tvg-logo="https://s.id/1hhro" group-title="SPORTS",LIVE 7 BUNDESLIGA
+http://golive.yn.lt/live/bundesliga/07.m3u8
+#EXTINF:-1 tvg-ID="bundesliga" tvg-logo="https://s.id/1hhro" group-title="SPORTS",LIVE 8 BUNDESLIGA
+http://golive.yn.lt/live/bundesliga/08.m3u8
+#EXTINF:-1 tvg-ID="bundesliga" tvg-logo="https://s.id/1hhro" group-title="SPORTS",LIVE 9 BUNDESLIGA
+http://golive.yn.lt/live/bundesliga/09.m3u8
 
 #EXTINF:-1 tvg-ID="liga1" tvg-logo="https://s.id/1hhtL" group-title="SPORTS",LIVE 1 LIGA BRI
 http://golive.yn.lt/live/liga1/01.m3u8
@@ -1128,6 +1176,18 @@ http://golive.yn.lt/live/liga1/01.m3u8
 http://golive.yn.lt/live/liga1/02.m3u8
 #EXTINF:-1 tvg-ID="liga1" tvg-logo="https://s.id/1hhtL" group-title="SPORTS",LIVE 3 LIGA BRI
 http://golive.yn.lt/live/liga1/03.m3u8
+#EXTINF:-1 tvg-ID="liga1" tvg-logo="https://s.id/1hhtL" group-title="SPORTS",LIVE 4 LIGA BRI
+http://golive.yn.lt/live/liga1/04.m3u8
+#EXTINF:-1 tvg-ID="liga1" tvg-logo="https://s.id/1hhtL" group-title="SPORTS",LIVE 5 LIGA BRI
+http://golive.yn.lt/live/liga1/05.m3u8
+#EXTINF:-1 tvg-ID="liga1" tvg-logo="https://s.id/1hhtL" group-title="SPORTS",LIVE 6 LIGA BRI
+http://golive.yn.lt/live/liga1/06.m3u8
+#EXTINF:-1 tvg-ID="liga1" tvg-logo="https://s.id/1hhtL" group-title="SPORTS",LIVE 7 LIGA BRI
+http://golive.yn.lt/live/liga1/07.m3u8
+#EXTINF:-1 tvg-ID="liga1" tvg-logo="https://s.id/1hhtL" group-title="SPORTS",LIVE 8 LIGA BRI
+http://golive.yn.lt/live/liga1/08.m3u8
+#EXTINF:-1 tvg-ID="liga1" tvg-logo="https://s.id/1hhtL" group-title="SPORTS",LIVE 9 LIGA BRI
+http://golive.yn.lt/live/liga1/09.m3u8
 
 #EXTINF:-1 tvg-ID="liga1" tvg-logo="https://s.id/1iMKg" group-title="SPORTS",LIVE 1 FRIENDLY MATCH
 http://golive.yn.lt/live/friendly/01.m3u8
@@ -1154,6 +1214,18 @@ http://golive.yn.lt/live/liga2/01.m3u8
 http://golive.yn.lt/live/liga2/02.m3u8
 #EXTINF:-1 tvg-ID="liga2" tvg-logo="https://s.id/1hl7A" group-title="SPORTS",LIVE 3 LIGA 2
 http://golive.yn.lt/live/liga2/03.m3u8
+#EXTINF:-1 tvg-ID="liga2" tvg-logo="https://s.id/1hl7A" group-title="SPORTS",LIVE 4 LIGA 2
+http://golive.yn.lt/live/liga2/04.m3u8
+#EXTINF:-1 tvg-ID="liga2" tvg-logo="https://s.id/1hl7A" group-title="SPORTS",LIVE 5 LIGA 2
+http://golive.yn.lt/live/liga2/05.m3u8
+#EXTINF:-1 tvg-ID="liga2" tvg-logo="https://s.id/1hl7A" group-title="SPORTS",LIVE 6 LIGA 2
+http://golive.yn.lt/live/liga2/06.m3u8
+#EXTINF:-1 tvg-ID="liga2" tvg-logo="https://s.id/1hl7A" group-title="SPORTS",LIVE 7 LIGA 2
+http://golive.yn.lt/live/liga2/07.m3u8
+#EXTINF:-1 tvg-ID="liga2" tvg-logo="https://s.id/1hl7A" group-title="SPORTS",LIVE 8 LIGA 2
+http://golive.yn.lt/live/liga2/08.m3u8
+#EXTINF:-1 tvg-ID="liga2" tvg-logo="https://s.id/1hl7A" group-title="SPORTS",LIVE 9 LIGA 2
+http://golive.yn.lt/live/liga2/09.m3u8
 
 #EXTINF:-1 tvg-ID="afccup" tvg-logo="https://s.id/1hH1F" group-title="SPORTS",LIVE 1 AFC CUP
 http://golive.yn.lt/live/afc/01.m3u8
@@ -1161,6 +1233,18 @@ http://golive.yn.lt/live/afc/01.m3u8
 http://golive.yn.lt/live/afc/02.m3u8
 #EXTINF:-1 tvg-ID="afccup" tvg-logo="https://s.id/1hH1F" group-title="SPORTS",LIVE 3 AFC CUP
 http://golive.yn.lt/live/afc/03.m3u8
+#EXTINF:-1 tvg-ID="afccup" tvg-logo="https://s.id/1hH1F" group-title="SPORTS",LIVE 4 AFC CUP
+http://golive.yn.lt/live/afc/04.m3u8
+#EXTINF:-1 tvg-ID="afccup" tvg-logo="https://s.id/1hH1F" group-title="SPORTS",LIVE 5 AFC CUP
+http://golive.yn.lt/live/afc/05.m3u8
+#EXTINF:-1 tvg-ID="afccup" tvg-logo="https://s.id/1hH1F" group-title="SPORTS",LIVE 6 AFC CUP
+http://golive.yn.lt/live/afc/06.m3u8
+#EXTINF:-1 tvg-ID="afccup" tvg-logo="https://s.id/1hH1F" group-title="SPORTS",LIVE 7 AFC CUP
+http://golive.yn.lt/live/afc/07.m3u8
+#EXTINF:-1 tvg-ID="afccup" tvg-logo="https://s.id/1hH1F" group-title="SPORTS",LIVE 8 AFC CUP
+http://golive.yn.lt/live/afc/08.m3u8
+#EXTINF:-1 tvg-ID="afccup" tvg-logo="https://s.id/1hH1F" group-title="SPORTS",LIVE 9 AFC CUP
+http://golive.yn.lt/live/afc/09.m3u8
 
 #EXTINF:-1 tvg-ID="epl" tvg-logo="https://s.id/1hhw2" group-title="SPORTS",LIVE 1 EPL
 http://warkop.cf/86/epl/01.m3u8
