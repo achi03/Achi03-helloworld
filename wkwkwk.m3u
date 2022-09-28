@@ -563,7 +563,7 @@ https://stream-cdn.mncnow.id/live/eds/CrimeInvestigation/sa_dash_vmx/CrimeInvest
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="foxmovies" tvg-logo="https://s.id/1d1eL" group-title="MOVIES",FOX MOVIES
+#EXTINF:-1 tvg-ID="Sofytv" tvg-logo="https://s.id/1jgVf" group-title="MOVIES",SOFY TV
 http://ucer2020.ddns.net/r3rhj5U47C/jRxaUqYtQj/95971
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
