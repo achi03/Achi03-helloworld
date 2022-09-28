@@ -1573,17 +1573,17 @@ http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIGorontalo)/index.m3u8
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIMalukuambon)/index.m3u8
 #EXTINF:-1 group-title="TVRI" tvg-logo="https://s.id/1d0Iu",TVRI PAPUA
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIPapua)/index.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxuHoUCOgDha4Pzi2sPeV4TJEPXTKdjKqESA&usqp=CAU" group-title="CHANNEL DAERAH",ADI TV
+#EXTINF:-1 tvg-logo="https://s.id/1jguM" group-title="CHANNEL DAERAH",ADI TV
 https://v2.siar.us/aditv/livestream/chunks.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCYR4yuVVtHQVHtAZvUaPDLf9MmudYzXQUXA&usqp=CAU" group-title="CHANNEL DAERAH",arek TV
+#EXTINF:-1 tvg-logo="https://s.id/1jgtU" group-title="CHANNEL DAERAH",arek TV
 http://wowza58.indostreamserver.com:1935/arektv/live/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://image.indonetwork.co.id/companies/thumbs/400x200/2008/04/11/5f23b633ea596297a8e0068526c43d8a.jpg" group-title="CHANNEL DAERAH",Banjar TV
+#EXTINF:-1 tvg-logo="https://s.id/1jgvQ" group-title="CHANNEL DAERAH",Banjar TV
 https://v2.siar.us/banjartv/livestream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoriO0Ou_8diL63oMk6FQRiKebc7t-zppePg&usqp=CAU" group-title="CHANNEL DAERAH",Banten TV
+#EXTINF:-1 tvg-logo="https://s.id/1jgwn" group-title="CHANNEL DAERAH",Banten TV
 https://v2.siar.us/barayatv/live/chunks.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIFkoPlPh7vewbAQyRmL9Cyirf6kZ-iJmc3DEqSqOLqh_7YG71vgM-BvWC&s=10" group-title="CHANNEL DAERAH",Banyumas TV
+#EXTINF:-1 tvg-logo="https://s.id/1jgx3" group-title="CHANNEL DAERAH",Banyumas TV
 https://v2.siar.us/bmstv/livestream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNkeNzRQVjp-hG0PWaDVOdzstgn2wegCgEdQ&usqp=CAU" group-title="CHANNEL DAERAH",DM TV
+#EXTINF:-1 tvg-logo="https://s.id/1jgxu" group-title="CHANNEL DAERAH",DM TV
 https://bravo.kugo.id/dmtvmalang/rtmp.stream/chunklist.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8MiHHUKJ8aZ8VbxgxL81xKtg6ZDy-8iytfQ&usqp=CAU" group-title="CHANNEL DAERAH",GPR TV
 https://wowza.convergen.co/gprtv/myLive/playlist.m3u8
