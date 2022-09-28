@@ -1125,6 +1125,19 @@ http://clientsportals.com:2095/eSN1tfXB/f6QW2ugz/39410
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="supervariety3" tvg-logo="https://s.id/1jgo9" group-title="SPORTS",SUPER VARIETY 3
 http://clientsportals.com:2095/eSN1tfXB/f6QW2ugz/39415
+#EXTM3U
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
+#EXTINF:-1 tvg-ID="supermoto" tvg-logo="https://s.id/1jgrc" group-title="SPORTS",SUPER MOTO
+http://clientsportals.com:2095/eSN1tfXB/f6QW2ugz/39412
+#EXTM3U
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
+#EXTINF:-1 tvg-ID="superpsl" tvg-logo="https://s.id/1jgrP" group-title="SPORTS",SUPER PSL
+http://clientsportals.com:2095/eSN1tfXB/f6QW2ugz/39407
+
+
+
 
 
 
