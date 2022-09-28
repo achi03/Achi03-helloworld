@@ -1075,6 +1075,30 @@ https://alfa.kugo.id/playout/maleo.stream_360p/playlist.m3u8
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="nhkworldpremium" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToxnQkyBc0gCjsOzDjfACkVTMnktbcIjGyzg&usqp=CAU" group-title="SPORTS",NHK WORLD PREMIUM
 https://liveanevia.mncnow.id/live/eds/NHKWorldPremium/sa_dash_vmx/NHKWorldPremium.mpd
+#EXTM3U
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
+#EXTINF:-1 tvg-ID="assp1" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToxnQkyBc0gCjsOzDjfACkVTMnktbcIjGyzg&usqp=CAU" group-title="SPORTS",ASSP1
+http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/115615
+#EXTM3U
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
+#EXTINF:-1 tvg-ID="assp2" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToxnQkyBc0gCjsOzDjfACkVTMnktbcIjGyzg&usqp=CAU" group-title="SPORTS",ASSP2
+http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/115616
+#EXTM3U
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
+#EXTINF:-1 tvg-ID="assp3" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToxnQkyBc0gCjsOzDjfACkVTMnktbcIjGyzg&usqp=CAU" group-title="SPORTS",ASSP3
+http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/115617
+#EXTM3U
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
+#EXTINF:-1 tvg-ID="assp4" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToxnQkyBc0gCjsOzDjfACkVTMnktbcIjGyzg&usqp=CAU" group-title="SPORTS",ASSP4
+http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/115618
+
+
+
+
 #EXTINF:-1 tvg-ID="live1" tvg-logo="https://s.id/1hlmo" group-title="SPORTS",LIVE 1
 http://golive.yn.lt/live/bola/01.m3u8
 #EXTINF:-1 tvg-ID="live2" tvg-logo="https://s.id/1hlmo" group-title="SPORTS",LIVE 2
