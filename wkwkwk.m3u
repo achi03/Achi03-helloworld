@@ -1063,11 +1063,6 @@ https://d14a5mi0m64mw7.cloudfront.net/out/v1/8a240d2e8a64453da6288810ede90a60/in
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="supersport" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVnkbXt769CPKnH4Q6F7rEqsUCrI3xoXT_7A&usqp=CAU" group-title="SPORTS",SUPER SPORT
-https://lshstream.xyz/hls/allsportsicu02/index.m3u8
-#EXTM3U
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="dangduttv" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfIhOqOgpbu5i_rVtZhKLWfgepuLFzA_6ARw&usqp=CAU" group-title="SPORTS",DANGDUT TV
 https://alfa.kugo.id/playout/maleo.stream_360p/playlist.m3u8
 #EXTM3U
@@ -1095,7 +1090,26 @@ http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/115617
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="assp4" tvg-logo="https://s.id/1jgds" group-title="SPORTS",ASSP4
 http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/115618
-
+#EXTM3U
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
+#EXTINF:-1 tvg-ID="supersport" tvg-logo="https://s.id/1jgh8" group-title="SPORTS",SUPER SPORT
+https://lshstream.xyz/hls/allsportsicu02/index.m3u8
+#EXTM3U
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
+#EXTINF:-1 tvg-ID="supersport1" tvg-logo="https://s.id/1jgi0" group-title="SPORTS",SUPER SPORT 1
+http://clientsportals.com:2095/eSN1tfXB/f6QW2ugz/39408
+#EXTM3U
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
+#EXTINF:-1 tvg-ID="supersport2" tvg-logo="https://s.id/1jgiA" group-title="SPORTS",SUPER SPORT 2
+http://clientsportals.com:2095/eSN1tfXB/f6QW2ugz/39406
+#EXTM3U
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
+#EXTINF:-1 tvg-ID="supersport3" tvg-logo="https://s.id/1jgjd" group-title="SPORTS",SUPER SPORT 3
+http://clientsportals.com:2095/eSN1tfXB/f6QW2ugz/39413
 
 
 
