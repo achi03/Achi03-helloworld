@@ -1,0 +1,146 @@
+<html>
+<style type="text/css">
+a {
+text-decoration:none;
+color:Red;
+display:block;
+font-size:30px;
+}
+
+</style>
+<head>
+<title></title>
+</head>
+<body bgcolor="#000000"><body text="white">
+<html>
+<style type="text/css">
+a {
+text-decoration:none;
+color:Red;
+display:block;
+font-size:30px;
+}
+</style>
+<head>
+<title></title>
+</head>
+<body bgcolor="#000000"><body text="white">
+<div style="position: relative; padding-top: 62%;"> <iframe src="https://achi03.github.io/Achi03-helloworld/hc.html#https://rush-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-rush/CDN/playlist.m3u8" style="border: false; position: absolute; top: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; allow-popups allow-popups-to-escape-sandbox;" allowfullscreen="true"></iframe></script></div>
+<br>
+	<br>
+		<br>
+<div style="border: 0px solid blue; font-family: "arial black"; font-size: 50px; font-weight: bolder; padding: 1px 1px;">
+<marquee behavior="scroll" direction="left" onmouseout="run" onmouseover="stop" scrollamount="3" width="100%">
+<script type="text/javascript">
+var message="Selamat Datang Di TV FORSAT TECH Saluran TV Nasional, Admin Forsat_Tech 2022 © All Rights Reserved"
+var bgsGR1color="white" /* Warna utama teks */
+var bgsGR2color="Green" /* Warna teks flash pertama */
+var bgsGR3color="Blue" /* Warna teks flash ke dua */
+var flashspeed=1 // kec. ganti warna (1/1000 dt)
+var flashingletters=50 // jumlah teks pertama
+var flashingletters2=50 // jumlah berwarna teks ke dua
+var flashpause=30 // waktu jeda pergantian warna (1/1000 dtk)
+var n=0
+if (document.all||document.getElementById){document.write('<font color="'+bgsGR1color+'">')
+for (m=0;m<message.length;m++)
+document.write('<span id="neonlight'+m+'">'+message.charAt(m)+'</span>')
+document.write('</font>')}else
+document.write(message)
+function crossref(number){var crossobj=document.all? eval("document.all.neonlight"+number) : document.getElementById("neonlight"+number)
+return crossobj}function neon(){if (n==0){for (m=0;m<message.length;m++)
+crossref(m).style.color=bgsGR1color}
+crossref(n).style.color=bgsGR2color
+if (n>flashingletters-1) crossref(n-flashingletters).style.color=bgsGR3color
+if (n>(flashingletters+flashingletters2)-1) crossref(n-flashingletters-flashingletters2).style.color=bgsGR1color
+if (n<message.length-1)
+n++
+else{n=0
+clearInterval(flashing)
+setTimeout("beginneon()",flashpause)
+return}}
+function beginneon(){if (document.all||document.getElementById)
+flashing=setInterval("neon()",flashspeed)}
+beginneon()
+</script></marquee></div>
+<br>
+	<br>
+	<br>
+<center>
+<script>
+                    document.write(new Date().getFullYear() + " &copy; <span class='logoText'>Forsat Tech</span> All Rights Reserved");
+                </script>            
+        </footer>
+        <script>
+var player = document.getElementById('playlist');
+            $(document).ready(function () {
+                        	fetch('https://corsanywhere.herokuapp.com/https://automobilevintagespa.000webhostapp.com/apiforlink.php?token=0wartj9d7xvm90sor1o5')
+  .then((response) => {
+    return response.json();
+  })
+  .then((data) => {
+    console.log(data.message);
+    document.querySelector('marquee').innerHTML = data.message;
+  });
+                setTimeout(() => {
+                    $("#loader").css("display", "none");
+                }, 1000);
+                            //$("#playerContainer").html('<video id="player" playsinline controls data-poster=""><source src="" type="video/mp4" /></video>');
+                var channelButtons = $("[channel]");
+                var i;
+                for (i = 0; i < channelButtons.length; i++) {
+                    channelButtons[i].onclick = function (e) {
+                        var slug = e.currentTarget.getAttribute("channel");
+                                 rmp.setControls(true);
+                                  var src = {
+                                mp4: [slug],
+                            };
+                            //console.log(src);
+                            rmp.setSrc(src);
+                            rmp.play();
+                        };
+                    };
+                                /*RMP Player Initialization*/
+              var src = {
+                        mp4: "https://d2zihajmogu5jn.cloudfront.net/tears-of-steel/playlist.m3u8",
+                    },
+                    settings = {
+                        licenseKey: atob("ZVdabVoyZDJZM0JyZEVBeE5UTXdOakEy"),
+                        autoHeightMode: true,
+                        pip: true,
+                        detectAutoplayCapabilities: true,
+                        autoplay: false,
+                        mutedAutoplayOnMobile: false,
+                        mutedAutoplayOnMacosSafari11Plus: false,
+                        srcChangeAutoplay: true,
+                        skin: "s3",
+                        skinBackgroundColor: "rgba(0, 0, 0, 0.7)",
+                        skinButtonColor: "FFFFFF",
+                        skinAccentColor: "FC801C",
+                        quickRewind: 10,
+                        quickForward: 10,
+                        hideControls: true,
+                        preload: false,
+                        crossorigin: true,
+                        ads:true,
+                        adParser:'rmp-vast',
+                        adTagUrl: 'false',
+                        sharing: false,
+                        contentMetadata: {
+                            artwork: [{ src: "", sizes: "1280x720", type: "image/jpg" }],
+                            poster: [""],
+                            endOfVideoPoster: [""],
+                            thumbnail: "",
+                        },
+                        src: src,
+                    },
+                    elementID = "playerContainer",
+                    rmp = new RadiantMP(elementID),
+                    rmpContainer = document.getElementById(elementID);
+
+                rmp.setLoop(true);
+                rmp.init(settings);
+                /*RMP Player initialized*/
+                            });
+        </script>
+    </body>
+</html>
