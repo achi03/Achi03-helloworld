@@ -651,23 +651,23 @@ http://tvn.x10.mx/1/master-5.m3u8?dl=1
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="nhk" tvg-logo="https://s.id/1d19f" group-title="VIDIO",NHK
-https://hi.hi-back.masuk.web.id/c.m3u8?shinta=2022&coday=f846bc691110108f73cb55c2f4049864&cdy=9dd30287dc5ffcfb4efb1e0521c3c8f8446503011668def857b1c03bafabba51
+#EXTINF:-1 tvg-ID="championstv1" tvg-logo="https://s.id/1kcrh" group-title="VIDIO",CHAMPOIONS TV1
+http://tvn.x10.mx/1/master-7.m3u8?dl=1
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="dw" tvg-logo="https://s.id/1d193" group-title="VIDIO",DW
-https://hi.hi-back.masuk.web.id/c.m3u8?shinta=2022&coday=f846bc691110108f73cb55c2f4049864&cdy=23685a2431acad7789c1e3d43ea1522c446503011668def857b1c03bafabba51
+#EXTINF:-1 tvg-ID="championstv2" tvg-logo="https://s.id/1kcsJ" group-title="VIDIO",CHAMPIONS TV2
+http://tvn.x10.mx/1/master-8.m3u8?dl=1
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="tempotv" tvg-logo="https://s.id/1d1kq" group-title="VIDIO",TEMPO TV
-https://hi.hi-back.masuk.web.id/c.m3u8?shinta=2022&coday=f846bc691110108f73cb55c2f4049864&cdy=5d188b044333b4c62676e0d4f53dade7446503011668def857b1c03bafabba51
+#EXTINF:-1 tvg-ID="championstv3" tvg-logo="https://s.id/1kctg" group-title="VIDIO",CHAMPIONS TV3
+http://tvn.x10.mx/1/master-9.m3u8?dl=1
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="daai" tvg-logo="https://s.id/1d0Mm" group-title="VIDIO",DAAI
-https://hi.hi-back.masuk.web.id/c.m3u8?shinta=2022&coday=f846bc691110108f73cb55c2f4049864&cdy=889091ff744069cab08dc605d162a8d3446503011668def857b1c03bafabba51
+#EXTINF:-1 tvg-ID="championsgoal" tvg-logo="https://s.id/1kctB" group-title="VIDIO",CHAMPIONS GOAL
+http://tvn.x10.mx/1/master-10.m3u8?dl=1
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
