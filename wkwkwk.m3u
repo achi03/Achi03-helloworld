@@ -701,7 +701,7 @@ http://cdn.elsalvadordigital.com:1935/wowtv/wowtv/chunklist_w454258933.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="antaratv" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjUwz1RXNy2GfduixIiywkk-Z6jkFQlN30KA&usqp=CAU" group-title="VISION+",ANTARA TV
+#EXTINF:-1 tvg-ID="indikids" tvg-logo="https://s.id/1kdME" group-title="VISION+",INDI KIDS
 http://cdn.makanja.xyz/paylist/indikids.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
