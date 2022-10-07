@@ -687,7 +687,7 @@ http://tvn.x10.mx/1/master-4.m3u8?dl=1
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="toonzkids" tvg-logo="https://s.id/1kcLy" group-title="VISION+",TOONZ KIDS
-http://210.210.155.37/session/69356c58-3370-11ed-8b5c-bd1b880bb05e/x6bnqe/s/s14/index2.m3u8
+http://birutv.my.id/x6bnqe/s/s14/index2.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
