@@ -587,12 +587,12 @@ http://playlist.urfan.web.id/uq2663/h/h06/index.m3u8?app_type=web&userid=50n13N0
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="tvone" tvg-logo="https://s.id/1d0FV" group-title="VIDIO",TVONE
-http://tvn.x10.mx/1/master-25.m3u8?dl=1
+https://live-production.secureswiftcontent.com/exp=1666477373~acl=/hls-p/ingest_783_*/*~hmac=bb18be3b805b22a33c4a00844888a7849f94658bb3d6268110fa7df0dac51dca/hls-p/ingest_783_720p/index.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="transtv" tvg-logo="https://s.id/1d0Et" group-title="VIDIO",TRANSTV
-http://tvn.x10.mx/1/master-10.m3u8?dl=1
+https://etslive-2-vidio-com.akamaized.net/exp=1666477451~acl=/vp9/733_stream.mpd!/vp9/733/*!/vp9/*/733_stream.mpd!/vp9/*/733/*~hmac=9d98aba721a8662739394fc2a864e7800e3641974d486afe8e65937e833f76ad/vp9/733_stream.mpd
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
