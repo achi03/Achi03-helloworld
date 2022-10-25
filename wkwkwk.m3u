@@ -958,6 +958,27 @@ https://unifi-live05.secureswiftcontent.com/UnifiHD/live11.mpd
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="unifysport2" tvg-logo="https://s.id/1jhpf" group-title="RTM",UNIFY SPORT2
 https://unifi-live05.secureswiftcontent.com/UnifiHD/live12.mpd
+
+#EXTINF:-1 tvg-ID="live1" tvg-logo="https://s.id/1hlmo" group-title="SPORTS",LIVE 1
+http://golive.yn.lt/live/bola/01.m3u8
+#EXTINF:-1 tvg-ID="live2" tvg-logo="https://s.id/1hlmo" group-title="SPORTS",LIVE 2
+http://golive.yn.lt/live/bola/02.m3u8
+#EXTINF:-1 tvg-ID="live3" tvg-logo="https://s.id/1hlmo" group-title="SPORTS",LIVE 3
+http://golive.yn.lt/live/bola/03.m3u8
+#EXTINF:-1 tvg-ID="live4" tvg-logo="https://s.id/1hlmo" group-title="SPORTS",LIVE 4
+http://golive.yn.lt/live/bola/04.m3u8
+#EXTINF:-1 tvg-ID="live5" tvg-logo="https://s.id/1hlmo" group-title="SPORTS",LIVE 5
+http://golive.yn.lt/live/bola/05.m3u8
+#EXTINF:-1 tvg-ID="live6" tvg-logo="https://s.id/1hlmo" group-title="SPORTS",LIVE 6
+http://golive.yn.lt/live/bola/06.m3u8
+#EXTINF:-1 tvg-ID="live7" tvg-logo="https://s.id/1hlmo" group-title="SPORTS",LIVE 7
+http://golive.yn.lt/live/bola/07.m3u8
+#EXTINF:-1 tvg-ID="live8" tvg-logo="https://s.id/1hlmo" group-title="SPORTS",LIVE 8
+http://golive.yn.lt/live/bola/08.m3u8
+#EXTINF:-1 tvg-ID="live9" tvg-logo="https://s.id/1hlmo" group-title="SPORTS",LIVE 9
+http://golive.yn.lt/live/bola/09.m3u8
+
+
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
