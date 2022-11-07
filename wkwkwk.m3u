@@ -206,8 +206,8 @@ http://210.210.155.35/session/f20e21fc-b254-11ec-8b66-b82a72d63267/uq2663/h/h22/
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="cna" tvg-logo="https://s.id/1jgZB" group-title="VISION+",CNA
-http://birutivi.my.id:8080/live?channel_id=7172
+#EXTINF:-1 tvg-ID="cna" tvg-logo="https://s.id/1nAA2" group-title="DENSTV",ELSHINTA
+http://rr2.dens.tv/s/s10/index10.m3u8?app_type=web&userid=50n13N0v14nd1&tkn=829341hrjhaq0q30q&chname=Elshinta_TV
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
