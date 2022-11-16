@@ -576,11 +576,6 @@ https://d25tgymtnqzu8s.cloudfront.net/smil:tv2/playlist.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="tv3" tvg-logo="https://s.id/1kcRW" group-title="VISION+",TV3
-http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/40761
-#EXTM3U
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="bernama" tvg-logo="https://s.id/1jhmf" group-title="RTM",BERNAMA
 https://raw.githubusercontent.com/AqFad2811/BernamaHDYT/main/youtube.m3u8
 #EXTM3U
@@ -887,31 +882,6 @@ https://d14a5mi0m64mw7.cloudfront.net/out/v1/8a240d2e8a64453da6288810ede90a60/in
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="assp" tvg-logo="https://s.id/1jgd4" group-title="SPORTS",ASSP
-https://s7.gocast123.me:8201/hd/hls/j0PNfiWAvwC_jnrba7tcpA/1665738326/bbtsp2.m3u8
-#EXTM3U
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="assp2" tvg-logo="https://s.id/1jgdK" group-title="SPORTS",ASSP2
-https://s6.gocast123.me:8201/hd/hls/2OuvW2hdTJ9EMtX1UMpRYA/1665738822/bbtsp2.m3u8
-#EXTM3U
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="assp3" tvg-logo="https://s.id/1jge5" group-title="SPORTS",ASSP3
-https://s6.gocast123.me:8201/hd/hls/dqm-AHIWiky6BkKvM3JU8w/1665738987/bein3en.m3u8
-#EXTM3U
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="assp4" tvg-logo="https://s.id/1jgds" group-title="SPORTS",ASSP4
-http://iptvworld.nl:2095/nlinenodric/4sR2SwYYeg/115618
-#EXTM3U
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
-#EXTINF:-1 tvg-ID="supersport" tvg-logo="https://s.id/1jgh8" group-title="SPORTS",SUPER SPORT
-https://lshstream.xyz/hls/allsportsicu02/index.m3u8
-#EXTM3U
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="supersport1" tvg-logo="https://s.id/1jgi0" group-title="SPORTS",SUPER SPORT 1
 http://clientsportals.com:2095/eSN1tfXB/f6QW2ugz/39408
 #EXTM3U
@@ -956,76 +926,6 @@ http://warkop.cf/86/motogp/01.m3u8
 http://warkop.cf/86/motogp/02.m3u8
 #EXTINF:-1 tvg-ID="gp" tvg-logo="https://s.id/1hhBQ" group-title="SPORTS",LIVE 3 MOTO GP
 http://warkop.cf/86/motogp/03.m3u8
-
-#EXTINF:-1 tvg-ID="f1" tvg-logo="https://s.id/1hhDr" group-title="SPORTS",LIVE 1 F1
-http://warkop.cf/86/formula1/01.m3u8
-#EXTINF:-1 tvg-ID="f1" tvg-logo="https://s.id/1hhDr" group-title="SPORTS",LIVE 2 F1
-http://warkop.cf/86/formula1/02.m3u8
-#EXTINF:-1 tvg-ID="f1" tvg-logo="https://s.id/1hhDr" group-title="SPORTS",LIVE 3 F1
-http://warkop.cf/86/formula1/03.m3u8
-
-#EXTINF:-1 tvg-ID="sbk" tvg-logo="https://s.id/1hhEj" group-title="SPORTS",LIVE 1 SBK
-http://warkop.cf/86/wsbk/01.m3u8
-#EXTINF:-1 tvg-ID="sbk" tvg-logo="https://s.id/1hhEj" group-title="SPORTS",LIVE 2 SBK
-http://warkop.cf/86/wsbk/02.m3u8
-#EXTINF:-1 tvg-ID="sbk" tvg-logo="https://s.id/1hhEj" group-title="SPORTS",LIVE 3 SBK
-http://warkop.cf/86/wsbk/03.m3u8
-
-#EXTINF:-1 tvg-ID="formulae" tvg-logo="https://s.id/1hhF5" group-title="SPORTS",LIVE 1 FORMULA E
-http://warkop.cf/86/formulae/01.m3u8
-#EXTINF:-1 tvg-ID="formulae" tvg-logo="https://s.id/1hhF5" group-title="SPORTS",LIVE 2 FORMULA E
-http://warkop.cf/86/formulae/02.m3u8
-#EXTINF:-1 tvg-ID="formulae" tvg-logo="https://s.id/1hhF5" group-title="SPORTS",LIVE 3 FORMULA E
-http://warkop.cf/86/formulae/03.m3u8
-
-#EXTINF:-1 tvg-ID="futsal" tvg-logo="https://s.id/1hhJ0" group-title="SPORTS",LIVE 1 FUTSAL
-http://warkop.cf/86/futsal/01.m3u8
-#EXTINF:-1 tvg-ID="futsal" tvg-logo="https://s.id/1hhJ0" group-title="SPORTS",LIVE 2 FUTSAL
-http://warkop.cf/86/futsal/02.m3u8
-#EXTINF:-1 tvg-ID="futsal" tvg-logo="https://s.id/1hhJ0" group-title="SPORTS",LIVE 3 FUTSAL
-http://warkop.cf/86/futsal/03.m3u8
-
-#EXTINF:-1 tvg-ID="badminton" tvg-logo="https://s.id/1hhJJ" group-title="SPORTS",LIVE 1 BADMINTON
-http://warkop.cf/86/badminton/01.m3u8
-#EXTINF:-1 tvg-ID="badminton" tvg-logo="https://s.id/1hhJJ" group-title="SPORTS",LIVE 2 BADMINTON
-http://warkop.cf/86/badminton/02.m3u8
-#EXTINF:-1 tvg-ID="badminton" tvg-logo="https://s.id/1hhJJ" group-title="SPORTS",LIVE 3 BADMINTON
-http://warkop.cf/86/badminton/03.m3u8
-#EXTINF:-1 tvg-ID="badminton" tvg-logo="https://s.id/1hhJJ" group-title="SPORTS",LIVE 4 BADMINTON
-http://warkop.cf/86/badminton/04.m3u8
-#EXTINF:-1 tvg-ID="badminton" tvg-logo="https://s.id/1hhJJ" group-title="SPORTS",LIVE 5 BADMINTON
-http://warkop.cf/86/badminton/05.m3u8
-#EXTINF:-1 tvg-ID="badminton" tvg-logo="https://s.id/1hhJJ" group-title="SPORTS",LIVE 6 BADMINTON
-http://warkop.cf/86/badminton/06.m3u8
-
-#EXTINF:-1 tvg-ID="boxing" tvg-logo="https://s.id/1hhLq" group-title="SPORTS",LIVE 1 BOXING
-http://warkop.cf/86/boxing/01.m3u8
-#EXTINF:-1 tvg-ID="boxing" tvg-logo="https://s.id/1hhLq" group-title="SPORTS",LIVE 2 BOXING
-http://warkop.cf/86/boxing/02.m3u8
-#EXTINF:-1 tvg-ID="boxing" tvg-logo="https://s.id/1hhLq" group-title="SPORTS",LIVE 3 BOXING
-http://warkop.cf/86/boxing/03.m3u8
-
-#EXTINF:-1 tvg-ID="volly" tvg-logo="https://s.id/1hhMo" group-title="SPORTS",LIVE 1 VOLLY BALL
-http://golive.yn.lt/live/volleyball/01.m3u8
-#EXTINF:-1 tvg-ID="volly" tvg-logo="https://s.id/1hhMo" group-title="SPORTS",LIVE 2 VOLLY BALL
-http://golive.yn.lt/live/volleyball/02.m3u8
-#EXTINF:-1 tvg-ID="volly" tvg-logo="https://s.id/1hhMo" group-title="SPORTS",LIVE 3 VOLLY BALL
-http://golive.yn.lt/live/volleyball/03.m3u8
-
-#EXTINF:-1 tvg-ID="tennis" tvg-logo="https://s.id/1hhNB" group-title="SPORTS",LIVE 1 TENNIS
-http://warkop.cf/86/tennis/01.m3u8
-#EXTINF:-1 tvg-ID="tennis" tvg-logo="https://s.id/1hhNB" group-title="SPORTS",LIVE 2 TENNIS
-http://warkop.cf/86/tennis/02.m3u8
-#EXTINF:-1 tvg-ID="tennis" tvg-logo="https://s.id/1hhNB" group-title="SPORTS",LIVE 3 TENNIS
-http://warkop.cf/86/tennis/03.m3u8
-#EXTINF:-1 tvg-ID="tennis" tvg-logo="https://s.id/1hhNB" group-title="SPORTS",LIVE 4 TENNIS
-http://warkop.cf/86/tennis/04.m3u8
-#EXTINF:-1 tvg-ID="tennis" tvg-logo="https://s.id/1hhNB" group-title="SPORTS",LIVE 5 TENNIS
-http://warkop.cf/86/tennis/05.m3u8
-#EXTINF:-1 tvg-ID="tennis" tvg-logo="https://s.id/1hhNB" group-title="SPORTS",LIVE 6 TENNIS
-http://warkop.cf/86/tennis/06.m3u8
-
-
 
 #EXTINF:-1 group-title="PLUTO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLq0lsiA8gUOHC2wNuUShJCNisFDauOUADIQ&usqp=CAU",PLUTO TV 1
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1ac8588734f8000823b7de/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&content_rating=ROKU_ADS_CONTENT_RATING
