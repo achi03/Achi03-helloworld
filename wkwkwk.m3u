@@ -813,19 +813,31 @@ http://golive.yn.lt/live/seriea/23.m3u8
 #EXTINF:-1 tvg-ID="live2" tvg-logo="https://s.id/1hlmo" group-title="SPORTS",LIVE 2
 http://golive.yn.lt/live/seriea/21.m3u8
 #EXTINF:-1 tvg-ID="live3" tvg-logo="https://s.id/1hlmo" group-title="SPORTS",LIVE 3
-http://golive.yn.lt/live/bola/03.m3u8
+http://golive.yn.lt/live/seriea/25.m3u8
 #EXTINF:-1 tvg-ID="live4" tvg-logo="https://s.id/1hlmo" group-title="SPORTS",LIVE 4
-http://golive.yn.lt/live/bola/04.m3u8
+http://golive.yn.lt/live/seriea/24.m3u8
 #EXTINF:-1 tvg-ID="live5" tvg-logo="https://s.id/1hlmo" group-title="SPORTS",LIVE 5
-http://golive.yn.lt/live/bola/05.m3u8
+http://golive.yn.lt/live/seriea/22.m3u8
 #EXTINF:-1 tvg-ID="live6" tvg-logo="https://s.id/1hlmo" group-title="SPORTS",LIVE 6
-http://golive.yn.lt/live/bola/06.m3u8
+http://golive.yn.lt/live/ligue1/21.m3u8
 #EXTINF:-1 tvg-ID="live7" tvg-logo="https://s.id/1hlmo" group-title="SPORTS",LIVE 7
-http://golive.yn.lt/live/bola/07.m3u8
+http://golive.yn.lt/live/ligue1/22.m3u8
 #EXTINF:-1 tvg-ID="live8" tvg-logo="https://s.id/1hlmo" group-title="SPORTS",LIVE 8
-http://golive.yn.lt/live/bola/08.m3u8
+http://golive.yn.lt/live/ligue1/23.m3u8
 #EXTINF:-1 tvg-ID="live9" tvg-logo="https://s.id/1hlmo" group-title="SPORTS",LIVE 9
-http://golive.yn.lt/live/bola/09.m3u8
+http://golive.yn.lt/live/ligue1/24.m3u8
+#EXTINF:-1 tvg-ID="live10" tvg-logo="https://s.id/1hlmo" group-title="SPORTS",LIVE 10
+http://golive.yn.lt/live/ligue1/25.m3u8
+#EXTINF:-1 tvg-ID="live11" tvg-logo="https://s.id/1hlmo" group-title="SPORTS",LIVE 11
+http://golive.yn.lt/live/ligue1/26.m3u8
+#EXTINF:-1 tvg-ID="live12" tvg-logo="https://s.id/1hlmo" group-title="SPORTS",LIVE 12
+http://golive.yn.lt/live/ligue1/27.m3u8
+#EXTINF:-1 tvg-ID="live13" tvg-logo="https://s.id/1hlmo" group-title="SPORTS",LIVE 13
+http://golive.yn.lt/live/ligue1/28.m3u8
+#EXTINF:-1 tvg-ID="live14" tvg-logo="https://s.id/1hlmo" group-title="SPORTS",LIVE 14
+http://golive.yn.lt/live/ligue1/29.m3u8
+#EXTINF:-1 tvg-ID="live15" tvg-logo="https://s.id/1hlmo" group-title="SPORTS",LIVE 15
+http://golive.yn.lt/live/ligue1/30.m3u8
 
 
 #EXTM3U
