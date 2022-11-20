@@ -783,7 +783,7 @@ http://golive.yn.lt/live/bola/03.m3u8
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="live1" tvg-logo="https://s.id/1oHI4" group-title="SPORT",LIVE 4
-https://www.netsky123.com/tmp/facebook_92701167c43b47f0b3637c2681e1d9af.mpd
+https://video.fupg5-1.fna.fbcdn.net/hvideo-eag-ldc/s1002/_nc_cat-1/_nc_sr_t-4/v/rs9-_I9b0xmSZ2Py_kE-1/_nc_ohc-oaLytOC9A9EAX8XFENQ/live-dash/dash-abr-ibr-audio/115897434668659.mpd?ccb=2-4&ms=m_CTPA&sc_t=1&oh=00_AfBgTPAttZEUVPy0E7x1AYqMK7HBHGUbBWq7BAkmCw_J7A&oe=637B9CF4
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
