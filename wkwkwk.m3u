@@ -789,7 +789,7 @@ http://golive.yn.lt/live/seriea/25.m3u8
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="live2" tvg-logo="https://s.id/1oHQ3" group-title="SPORT",LIVE 2
-http://golive.yn.lt/live/bola/02.m3u8
+https://live5.thetavideoapi.com/hls/live/2015866/hls_streamer_us_central_0011/stream_4z2btq5qrfb7errkfe47k5gx4_source/chunklist.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
@@ -806,7 +806,7 @@ http://golive.yn.lt/live/seriea/25.m3u8
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
 #EXTINF:-1 tvg-ID="live2" tvg-logo="https://s.id/1punc" group-title="SPORT",LIVE 2
-http://golive.yn.lt/live/seriea/01.m3u8
+https://live5.thetavideoapi.com/hls/live/2015866/hls_streamer_us_central_0011/stream_4z2btq5qrfb7errkfe47k5gx4_source/chunklist.m3u8
 #EXTM3U
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=YmZlN2E3Y2YtODY2NC0zNWZjLWI3MzUtYjY0Y2MxYzZjNTJj
