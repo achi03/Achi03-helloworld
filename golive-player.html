@@ -10,7 +10,7 @@
       <div class="shaka-range-container shaka-seek-bar-container" style="background: rgba(255, 255, 255, 0.3);">
           <script>
         const manifestUri =
-            'https://nyanv-live-cdn.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd';
+            'https://anevi-live-channel-cdn.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd';
             async function init() {
             const video = document.getElementById('video');
             const ui = video['ui'];
@@ -24,9 +24,9 @@
  
  player.configure({
                     drm: {
-                        widevine: {
+                        clearkey: {
    // 'key-id-in-hex': 'key-in-hex',
-                  'https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz',
+                  '9ba3e153ef8956d6e2b0684fcf74f58f:edef8ba979d64acea3c827dcd51d21ed',
                         }
                     }
                 });
